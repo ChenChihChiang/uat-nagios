@@ -1,0 +1,570 @@
+[1506336646] Nagios 4.3.4 starting... (PID=23688)
+[1506336646] Local time is Mon Sep 25 18:50:46 CST 2017
+[1506336646] LOG VERSION: 2.0
+[1506336646] qh: Failed to init socket '/usr/local/nagios/var/rw/nagios.qh'. bind() failed: No such file or directory
+[1506336646] Error: Failed to initialize query handler. Aborting
+[1506337612] Nagios 4.3.4 starting... (PID=24012)
+[1506337612] Local time is Mon Sep 25 19:06:52 CST 2017
+[1506337612] LOG VERSION: 2.0
+[1506337612] qh: Failed to init socket '/usr/local/nagios/var/rw/nagios.qh'. bind() failed: No such file or directory
+[1506337612] Error: Failed to initialize query handler. Aborting
+[1506337723] Nagios 4.3.4 starting... (PID=24156)
+[1506337723] Local time is Mon Sep 25 19:08:43 CST 2017
+[1506337723] LOG VERSION: 2.0
+[1506337723] qh: Failed to init socket '/usr/local/nagios/var/rw/nagios.qh'. bind() failed: No such file or directory
+[1506337723] Error: Failed to initialize query handler. Aborting
+[1506337824] Nagios 4.3.4 starting... (PID=24246)
+[1506337824] Local time is Mon Sep 25 19:10:24 CST 2017
+[1506337824] LOG VERSION: 2.0
+[1506337824] qh: Failed to init socket '/usr/local/nagios/var/rw/nagios.qh'. bind() failed: No such file or directory
+[1506337824] Error: Failed to initialize query handler. Aborting
+[1506337864] Nagios 4.3.4 starting... (PID=24316)
+[1506337864] Local time is Mon Sep 25 19:11:04 CST 2017
+[1506337864] LOG VERSION: 2.0
+[1506337864] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506337864] qh: core query handler registered
+[1506337864] nerd: Channel hostchecks registered successfully
+[1506337864] nerd: Channel servicechecks registered successfully
+[1506337864] nerd: Channel opathchecks registered successfully
+[1506337864] nerd: Fully initialized and ready to rock!
+[1506337864] wproc: Successfully registered manager as @wproc with query handler
+[1506337864] wproc: Registry request: name=Core Worker 24318;pid=24318
+[1506337864] wproc: Registry request: name=Core Worker 24319;pid=24319
+[1506337864] wproc: Registry request: name=Core Worker 24320;pid=24320
+[1506337864] wproc: Registry request: name=Core Worker 24321;pid=24321
+[1506337864] Successfully launched command file worker with pid 24322
+[1506337976] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506338036] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506338089] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 22: Connection refused
+[1506338096] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1506338126] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506338149] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 22: Connection refused
+[1506338156] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506338186] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506338209] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1506338246] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506338269] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1506338306] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506338306] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506338306] wproc: NOTIFY job 5 from worker Core Worker 24321 is a non-check helper but exited with return code 127
+[1506338306] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506338306] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506338306] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506338306] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506339000] Caught SIGTERM, shutting down...
+[1506339000] Successfully shutdown... (PID=24316)
+[1506339000] Event broker module 'NERD' deinitialized successfully.
+[1506339002] Nagios 4.3.4 starting... (PID=24778)
+[1506339002] Local time is Mon Sep 25 19:30:02 CST 2017
+[1506339002] LOG VERSION: 2.0
+[1506339002] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506339002] qh: core query handler registered
+[1506339002] nerd: Channel hostchecks registered successfully
+[1506339002] nerd: Channel servicechecks registered successfully
+[1506339002] nerd: Channel opathchecks registered successfully
+[1506339002] nerd: Fully initialized and ready to rock!
+[1506339002] wproc: Successfully registered manager as @wproc with query handler
+[1506339002] wproc: Registry request: name=Core Worker 24783;pid=24783
+[1506339002] wproc: Registry request: name=Core Worker 24780;pid=24780
+[1506339002] wproc: Registry request: name=Core Worker 24782;pid=24782
+[1506339002] wproc: Registry request: name=Core Worker 24781;pid=24781
+[1506339002] Successfully launched command file worker with pid 24784
+[1506339055] Caught SIGTERM, shutting down...
+[1506339055] Successfully shutdown... (PID=24778)
+[1506339055] Event broker module 'NERD' deinitialized successfully.
+[1506339056] Nagios 4.3.4 starting... (PID=24858)
+[1506339056] Local time is Mon Sep 25 19:30:56 CST 2017
+[1506339056] LOG VERSION: 2.0
+[1506339056] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506339056] qh: core query handler registered
+[1506339056] nerd: Channel hostchecks registered successfully
+[1506339056] nerd: Channel servicechecks registered successfully
+[1506339056] nerd: Channel opathchecks registered successfully
+[1506339056] nerd: Fully initialized and ready to rock!
+[1506339056] wproc: Successfully registered manager as @wproc with query handler
+[1506339056] wproc: Registry request: name=Core Worker 24860;pid=24860
+[1506339056] wproc: Registry request: name=Core Worker 24861;pid=24861
+[1506339056] wproc: Registry request: name=Core Worker 24862;pid=24862
+[1506339056] wproc: Registry request: name=Core Worker 24863;pid=24863
+[1506339056] Successfully launched command file worker with pid 24864
+[1506339141] Caught SIGTERM, shutting down...
+[1506339141] Successfully shutdown... (PID=24858)
+[1506339141] Event broker module 'NERD' deinitialized successfully.
+[1506339142] Nagios 4.3.4 starting... (PID=24954)
+[1506339142] Local time is Mon Sep 25 19:32:22 CST 2017
+[1506339142] LOG VERSION: 2.0
+[1506339142] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506339142] qh: core query handler registered
+[1506339142] nerd: Channel hostchecks registered successfully
+[1506339142] nerd: Channel servicechecks registered successfully
+[1506339142] nerd: Channel opathchecks registered successfully
+[1506339142] nerd: Fully initialized and ready to rock!
+[1506339142] wproc: Successfully registered manager as @wproc with query handler
+[1506339142] wproc: Registry request: name=Core Worker 24959;pid=24959
+[1506339142] wproc: Registry request: name=Core Worker 24958;pid=24958
+[1506339142] wproc: Registry request: name=Core Worker 24957;pid=24957
+[1506339142] wproc: Registry request: name=Core Worker 24956;pid=24956
+[1506339142] Successfully launched command file worker with pid 24960
+[1506339169] SERVICE ALERT: localhost;SSH;OK;HARD;4;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1506339476] Caught SIGTERM, shutting down...
+[1506339476] Successfully shutdown... (PID=24954)
+[1506339476] Event broker module 'NERD' deinitialized successfully.
+[1506339477] Nagios 4.3.4 starting... (PID=25096)
+[1506339477] Local time is Mon Sep 25 19:37:57 CST 2017
+[1506339477] LOG VERSION: 2.0
+[1506339477] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506339477] qh: core query handler registered
+[1506339477] nerd: Channel hostchecks registered successfully
+[1506339477] nerd: Channel servicechecks registered successfully
+[1506339477] nerd: Channel opathchecks registered successfully
+[1506339477] nerd: Fully initialized and ready to rock!
+[1506339477] wproc: Successfully registered manager as @wproc with query handler
+[1506339477] wproc: Registry request: name=Core Worker 25098;pid=25098
+[1506339477] wproc: Registry request: name=Core Worker 25099;pid=25099
+[1506339477] wproc: Registry request: name=Core Worker 25100;pid=25100
+[1506339477] wproc: Registry request: name=Core Worker 25101;pid=25101
+[1506339477] Successfully launched command file worker with pid 25102
+[1506339528] Caught SIGTERM, shutting down...
+[1506339528] Successfully shutdown... (PID=25096)
+[1506339528] Event broker module 'NERD' deinitialized successfully.
+[1506339529] Nagios 4.3.4 starting... (PID=25181)
+[1506339529] Local time is Mon Sep 25 19:38:49 CST 2017
+[1506339529] LOG VERSION: 2.0
+[1506339529] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506339529] qh: core query handler registered
+[1506339529] nerd: Channel hostchecks registered successfully
+[1506339529] nerd: Channel servicechecks registered successfully
+[1506339529] nerd: Channel opathchecks registered successfully
+[1506339529] nerd: Fully initialized and ready to rock!
+[1506339529] wproc: Successfully registered manager as @wproc with query handler
+[1506339529] wproc: Registry request: name=Core Worker 25186;pid=25186
+[1506339529] wproc: Registry request: name=Core Worker 25183;pid=25183
+[1506339529] wproc: Registry request: name=Core Worker 25184;pid=25184
+[1506339529] wproc: Registry request: name=Core Worker 25185;pid=25185
+[1506339529] Successfully launched command file worker with pid 25187
+[1506339566] Caught SIGTERM, shutting down...
+[1506339566] Successfully shutdown... (PID=25181)
+[1506339566] Event broker module 'NERD' deinitialized successfully.
+[1506390918] Nagios 4.3.4 starting... (PID=29865)
+[1506390918] Local time is Tue Sep 26 09:55:18 CST 2017
+[1506390918] LOG VERSION: 2.0
+[1506390918] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506390918] qh: core query handler registered
+[1506390918] nerd: Channel hostchecks registered successfully
+[1506390918] nerd: Channel servicechecks registered successfully
+[1506390918] nerd: Channel opathchecks registered successfully
+[1506390918] nerd: Fully initialized and ready to rock!
+[1506390918] wproc: Successfully registered manager as @wproc with query handler
+[1506390918] wproc: Registry request: name=Core Worker 29870;pid=29870
+[1506390918] wproc: Registry request: name=Core Worker 29867;pid=29867
+[1506390918] wproc: Registry request: name=Core Worker 29868;pid=29868
+[1506390918] wproc: Registry request: name=Core Worker 29869;pid=29869
+[1506390918] Successfully launched command file worker with pid 29871
+[1506390970] Caught SIGTERM, shutting down...
+[1506390970] Successfully shutdown... (PID=29865)
+[1506390970] Event broker module 'NERD' deinitialized successfully.
+[1506390971] Nagios 4.3.4 starting... (PID=29942)
+[1506390971] Local time is Tue Sep 26 09:56:11 CST 2017
+[1506390971] LOG VERSION: 2.0
+[1506390971] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506390971] qh: core query handler registered
+[1506390971] nerd: Channel hostchecks registered successfully
+[1506390971] nerd: Channel servicechecks registered successfully
+[1506390971] nerd: Channel opathchecks registered successfully
+[1506390971] nerd: Fully initialized and ready to rock!
+[1506390971] wproc: Successfully registered manager as @wproc with query handler
+[1506390971] wproc: Registry request: name=Core Worker 29947;pid=29947
+[1506390971] wproc: Registry request: name=Core Worker 29944;pid=29944
+[1506390971] wproc: Registry request: name=Core Worker 29945;pid=29945
+[1506390971] wproc: Registry request: name=Core Worker 29946;pid=29946
+[1506390971] Successfully launched command file worker with pid 29948
+[1506391180] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506391180] wproc: NOTIFY job 3 from worker Core Worker 29944 is a non-check helper but exited with return code 127
+[1506391180] wproc:   host=localhost; service=Swap Usage; contact=nagiosadmin
+[1506391180] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506391180] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506391180] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506391199] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506391259] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506391319] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506391379] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506391379] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506391379] wproc: NOTIFY job 7 from worker Core Worker 29944 is a non-check helper but exited with return code 127
+[1506391379] wproc:   host=uat-nginx; service=Swap Usage; contact=nagiosadmin
+[1506391379] wproc:   early_timeout=0; exited_ok=1; wait_status=32512; error_code=0;
+[1506391379] wproc:   stderr line 01: /bin/sh: /bin/mail: No such file or directory
+[1506391379] wproc:   stderr line 02: /usr/bin/printf: write error: Broken pipe
+[1506392303] Caught SIGTERM, shutting down...
+[1506392303] Caught SIGTERM, shutting down...
+[1506392303] Successfully shutdown... (PID=29942)
+[1506392303] Event broker module 'NERD' deinitialized successfully.
+[1506392806] Nagios 4.3.4 starting... (PID=2151)
+[1506392806] Local time is Tue Sep 26 10:26:46 CST 2017
+[1506392806] LOG VERSION: 2.0
+[1506392806] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506392806] qh: core query handler registered
+[1506392806] nerd: Channel hostchecks registered successfully
+[1506392806] nerd: Channel servicechecks registered successfully
+[1506392806] nerd: Channel opathchecks registered successfully
+[1506392806] nerd: Fully initialized and ready to rock!
+[1506392806] wproc: Successfully registered manager as @wproc with query handler
+[1506392806] wproc: Registry request: name=Core Worker 2156;pid=2156
+[1506392806] wproc: Registry request: name=Core Worker 2153;pid=2153
+[1506392806] wproc: Registry request: name=Core Worker 2154;pid=2154
+[1506392806] wproc: Registry request: name=Core Worker 2155;pid=2155
+[1506392806] Successfully launched command file worker with pid 2157
+[1506392919] Caught SIGTERM, shutting down...
+[1506392919] Successfully shutdown... (PID=2151)
+[1506392919] Event broker module 'NERD' deinitialized successfully.
+[1506392920] Nagios 4.3.4 starting... (PID=2245)
+[1506392920] Local time is Tue Sep 26 10:28:40 CST 2017
+[1506392920] LOG VERSION: 2.0
+[1506392920] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506392920] qh: core query handler registered
+[1506392920] nerd: Channel hostchecks registered successfully
+[1506392920] nerd: Channel servicechecks registered successfully
+[1506392920] nerd: Channel opathchecks registered successfully
+[1506392920] nerd: Fully initialized and ready to rock!
+[1506392920] wproc: Successfully registered manager as @wproc with query handler
+[1506392920] wproc: Registry request: name=Core Worker 2250;pid=2250
+[1506392920] wproc: Registry request: name=Core Worker 2247;pid=2247
+[1506392920] wproc: Registry request: name=Core Worker 2248;pid=2248
+[1506392920] wproc: Registry request: name=Core Worker 2249;pid=2249
+[1506392920] Successfully launched command file worker with pid 2251
+[1506393182] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506393242] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506393302] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506393362] SERVICE ALERT: uat-nginx;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506393362] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506394592] Caught SIGHUP, restarting...
+[1506394592] Event broker module 'NERD' deinitialized successfully.
+[1506394592] Warning: command_check_interval is deprecated and will be removed. Commands are always handled on arrival
+[1506394592] Nagios 4.3.4 starting... (PID=2245)
+[1506394592] Local time is Tue Sep 26 10:56:32 CST 2017
+[1506394592] LOG VERSION: 2.0
+[1506394592] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506394592] qh: core query handler registered
+[1506394592] nerd: Channel hostchecks registered successfully
+[1506394592] nerd: Channel servicechecks registered successfully
+[1506394592] nerd: Channel opathchecks registered successfully
+[1506394592] nerd: Fully initialized and ready to rock!
+[1506394592] wproc: Successfully registered manager as @wproc with query handler
+[1506394592] wproc: Registry request: name=Core Worker 4422;pid=4422
+[1506394592] wproc: Registry request: name=Core Worker 4423;pid=4423
+[1506394592] wproc: Registry request: name=Core Worker 4424;pid=4424
+[1506394592] wproc: Registry request: name=Core Worker 4425;pid=4425
+[1506394605] Caught SIGHUP, restarting...
+[1506394605] Event broker module 'NERD' deinitialized successfully.
+[1506394605] Warning: command_check_interval is deprecated and will be removed. Commands are always handled on arrival
+[1506394605] Nagios 4.3.4 starting... (PID=2245)
+[1506394605] Local time is Tue Sep 26 10:56:45 CST 2017
+[1506394605] LOG VERSION: 2.0
+[1506394605] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506394605] qh: core query handler registered
+[1506394605] nerd: Channel hostchecks registered successfully
+[1506394605] nerd: Channel servicechecks registered successfully
+[1506394605] nerd: Channel opathchecks registered successfully
+[1506394605] nerd: Fully initialized and ready to rock!
+[1506394605] wproc: Successfully registered manager as @wproc with query handler
+[1506394605] wproc: Registry request: name=Core Worker 4469;pid=4469
+[1506394605] wproc: Registry request: name=Core Worker 4466;pid=4466
+[1506394605] wproc: Registry request: name=Core Worker 4467;pid=4467
+[1506394605] wproc: Registry request: name=Core Worker 4468;pid=4468
+[1506394868] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506395383] Caught SIGTERM, shutting down...
+[1506395383] Successfully shutdown... (PID=2245)
+[1506395383] Event broker module 'NERD' deinitialized successfully.
+[1506395385] Nagios 4.3.4 starting... (PID=4919)
+[1506395385] Local time is Tue Sep 26 11:09:45 CST 2017
+[1506395385] LOG VERSION: 2.0
+[1506395385] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506395385] qh: core query handler registered
+[1506395385] nerd: Channel hostchecks registered successfully
+[1506395385] nerd: Channel servicechecks registered successfully
+[1506395385] nerd: Channel opathchecks registered successfully
+[1506395385] nerd: Fully initialized and ready to rock!
+[1506395385] wproc: Successfully registered manager as @wproc with query handler
+[1506395385] wproc: Registry request: name=Core Worker 4924;pid=4924
+[1506395385] wproc: Registry request: name=Core Worker 4921;pid=4921
+[1506395385] wproc: Registry request: name=Core Worker 4922;pid=4922
+[1506395385] wproc: Registry request: name=Core Worker 4923;pid=4923
+[1506395385] Successfully launched command file worker with pid 4925
+[1506395961] Caught SIGTERM, shutting down...
+[1506395961] Successfully shutdown... (PID=4919)
+[1506395961] Event broker module 'NERD' deinitialized successfully.
+[1506396041] Nagios 4.3.4 starting... (PID=5268)
+[1506396041] Local time is Tue Sep 26 11:20:41 CST 2017
+[1506396041] LOG VERSION: 2.0
+[1506396041] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506396041] qh: core query handler registered
+[1506396041] nerd: Channel hostchecks registered successfully
+[1506396041] nerd: Channel servicechecks registered successfully
+[1506396041] nerd: Channel opathchecks registered successfully
+[1506396041] nerd: Fully initialized and ready to rock!
+[1506396041] wproc: Successfully registered manager as @wproc with query handler
+[1506396041] wproc: Registry request: name=Core Worker 5273;pid=5273
+[1506396041] wproc: Registry request: name=Core Worker 5270;pid=5270
+[1506396041] wproc: Registry request: name=Core Worker 5271;pid=5271
+[1506396041] wproc: Registry request: name=Core Worker 5272;pid=5272
+[1506396041] Successfully launched command file worker with pid 5274
+[1506396196] Caught SIGTERM, shutting down...
+[1506396196] Successfully shutdown... (PID=5268)
+[1506396196] Event broker module 'NERD' deinitialized successfully.
+[1506396197] Nagios 4.3.4 starting... (PID=5390)
+[1506396197] Local time is Tue Sep 26 11:23:17 CST 2017
+[1506396197] LOG VERSION: 2.0
+[1506396197] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506396197] qh: core query handler registered
+[1506396197] nerd: Channel hostchecks registered successfully
+[1506396197] nerd: Channel servicechecks registered successfully
+[1506396197] nerd: Channel opathchecks registered successfully
+[1506396197] nerd: Fully initialized and ready to rock!
+[1506396197] wproc: Successfully registered manager as @wproc with query handler
+[1506396197] wproc: Registry request: name=Core Worker 5395;pid=5395
+[1506396197] wproc: Registry request: name=Core Worker 5392;pid=5392
+[1506396197] wproc: Registry request: name=Core Worker 5393;pid=5393
+[1506396197] wproc: Registry request: name=Core Worker 5394;pid=5394
+[1506396197] Successfully launched command file worker with pid 5396
+[1506396249] SERVICE ALERT: nsca_server;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506396251] Caught SIGTERM, shutting down...
+[1506396251] Successfully shutdown... (PID=5390)
+[1506396251] Event broker module 'NERD' deinitialized successfully.
+[1506396252] Nagios 4.3.4 starting... (PID=5462)
+[1506396252] Local time is Tue Sep 26 11:24:12 CST 2017
+[1506396252] LOG VERSION: 2.0
+[1506396252] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506396252] qh: core query handler registered
+[1506396252] nerd: Channel hostchecks registered successfully
+[1506396252] nerd: Channel servicechecks registered successfully
+[1506396252] nerd: Channel opathchecks registered successfully
+[1506396252] nerd: Fully initialized and ready to rock!
+[1506396252] wproc: Successfully registered manager as @wproc with query handler
+[1506396252] wproc: Registry request: name=Core Worker 5467;pid=5467
+[1506396252] wproc: Registry request: name=Core Worker 5464;pid=5464
+[1506396252] wproc: Registry request: name=Core Worker 5465;pid=5465
+[1506396252] wproc: Registry request: name=Core Worker 5466;pid=5466
+[1506396252] Successfully launched command file worker with pid 5468
+[1506396282] Caught SIGTERM, shutting down...
+[1506396282] Successfully shutdown... (PID=5462)
+[1506396282] Event broker module 'NERD' deinitialized successfully.
+[1506396283] Nagios 4.3.4 starting... (PID=5526)
+[1506396283] Local time is Tue Sep 26 11:24:43 CST 2017
+[1506396283] LOG VERSION: 2.0
+[1506396283] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506396283] qh: core query handler registered
+[1506396283] nerd: Channel hostchecks registered successfully
+[1506396283] nerd: Channel servicechecks registered successfully
+[1506396283] nerd: Channel opathchecks registered successfully
+[1506396283] nerd: Fully initialized and ready to rock!
+[1506396283] wproc: Successfully registered manager as @wproc with query handler
+[1506396283] wproc: Registry request: name=Core Worker 5531;pid=5531
+[1506396283] wproc: Registry request: name=Core Worker 5528;pid=5528
+[1506396283] wproc: Registry request: name=Core Worker 5529;pid=5529
+[1506396283] wproc: Registry request: name=Core Worker 5530;pid=5530
+[1506396283] Successfully launched command file worker with pid 5532
+[1506396962] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506397225] Caught SIGTERM, shutting down...
+[1506397225] Successfully shutdown... (PID=5526)
+[1506397225] Event broker module 'NERD' deinitialized successfully.
+[1506397227] Nagios 4.3.4 starting... (PID=5876)
+[1506397227] Local time is Tue Sep 26 11:40:27 CST 2017
+[1506397227] LOG VERSION: 2.0
+[1506397227] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506397227] qh: core query handler registered
+[1506397227] nerd: Channel hostchecks registered successfully
+[1506397227] nerd: Channel servicechecks registered successfully
+[1506397227] nerd: Channel opathchecks registered successfully
+[1506397227] nerd: Fully initialized and ready to rock!
+[1506397227] wproc: Successfully registered manager as @wproc with query handler
+[1506397227] wproc: Registry request: name=Core Worker 5878;pid=5878
+[1506397227] wproc: Registry request: name=Core Worker 5881;pid=5881
+[1506397227] wproc: Registry request: name=Core Worker 5880;pid=5880
+[1506397227] wproc: Registry request: name=Core Worker 5879;pid=5879
+[1506397227] Successfully launched command file worker with pid 5882
+[1506397437] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397437] Warning:  Passive check result was received for service 'nsca' on host 'localhost', but the service could not be found!
+[1506397437] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397437] External command error: Command failed
+[1506397509] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397509] Warning:  Passive check result was received for service 'nsca' on host 'localhost', but the service could not be found!
+[1506397509] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397509] External command error: Command failed
+[1506397603] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397603] Warning:  Passive check result was received for service 'nsca' on host 'localhost', but the service could not be found!
+[1506397603] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397603] External command error: Command failed
+[1506397641] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397641] Warning:  Passive check result was received for service 'nsca' on host 'localhost', but the service could not be found!
+[1506397641] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;localhost;nsca;0;testOK
+[1506397641] External command error: Command failed
+[1506397676] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK
+[1506397676] PASSIVE SERVICE CHECK: nsca_server;nsca;0;testOK
+[1506398005] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK
+[1506398005] PASSIVE SERVICE CHECK: nsca_server;nsca;0;testOK
+[1506398087] Caught SIGTERM, shutting down...
+[1506398087] Successfully shutdown... (PID=5876)
+[1506398087] Event broker module 'NERD' deinitialized successfully.
+[1506398088] Nagios 4.3.4 starting... (PID=6190)
+[1506398088] Local time is Tue Sep 26 11:54:48 CST 2017
+[1506398088] LOG VERSION: 2.0
+[1506398088] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506398088] qh: core query handler registered
+[1506398088] nerd: Channel hostchecks registered successfully
+[1506398088] nerd: Channel servicechecks registered successfully
+[1506398088] nerd: Channel opathchecks registered successfully
+[1506398088] nerd: Fully initialized and ready to rock!
+[1506398088] wproc: Successfully registered manager as @wproc with query handler
+[1506398088] wproc: Registry request: name=Core Worker 6195;pid=6195
+[1506398088] wproc: Registry request: name=Core Worker 6192;pid=6192
+[1506398088] wproc: Registry request: name=Core Worker 6193;pid=6193
+[1506398088] wproc: Registry request: name=Core Worker 6194;pid=6194
+[1506398088] Successfully launched command file worker with pid 6196
+[1506398176] Caught SIGTERM, shutting down...
+[1506398176] Successfully shutdown... (PID=6190)
+[1506398176] Event broker module 'NERD' deinitialized successfully.
+[1506398177] Nagios 4.3.4 starting... (PID=6275)
+[1506398177] Local time is Tue Sep 26 11:56:17 CST 2017
+[1506398177] LOG VERSION: 2.0
+[1506398177] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506398177] qh: core query handler registered
+[1506398177] nerd: Channel hostchecks registered successfully
+[1506398177] nerd: Channel servicechecks registered successfully
+[1506398177] nerd: Channel opathchecks registered successfully
+[1506398177] nerd: Fully initialized and ready to rock!
+[1506398177] wproc: Successfully registered manager as @wproc with query handler
+[1506398177] wproc: Registry request: name=Core Worker 6277;pid=6277
+[1506398177] wproc: Registry request: name=Core Worker 6278;pid=6278
+[1506398177] wproc: Registry request: name=Core Worker 6279;pid=6279
+[1506398177] wproc: Registry request: name=Core Worker 6280;pid=6280
+[1506398177] Successfully launched command file worker with pid 6281
+[1506398193] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK
+[1506398193] PASSIVE SERVICE CHECK: nsca_server;nsca;0;testOK
+[1506398205] Caught SIGTERM, shutting down...
+[1506398205] Successfully shutdown... (PID=6275)
+[1506398205] Event broker module 'NERD' deinitialized successfully.
+[1506398206] Nagios 4.3.4 starting... (PID=6367)
+[1506398206] Local time is Tue Sep 26 11:56:46 CST 2017
+[1506398206] LOG VERSION: 2.0
+[1506398206] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506398206] qh: core query handler registered
+[1506398206] nerd: Channel hostchecks registered successfully
+[1506398206] nerd: Channel servicechecks registered successfully
+[1506398206] nerd: Channel opathchecks registered successfully
+[1506398206] nerd: Fully initialized and ready to rock!
+[1506398206] wproc: Successfully registered manager as @wproc with query handler
+[1506398206] wproc: Registry request: name=Core Worker 6369;pid=6369
+[1506398206] wproc: Registry request: name=Core Worker 6370;pid=6370
+[1506398206] wproc: Registry request: name=Core Worker 6371;pid=6371
+[1506398206] wproc: Registry request: name=Core Worker 6372;pid=6372
+[1506398206] Successfully launched command file worker with pid 6373
+[1506398236] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;2;testOK
+[1506398236] PASSIVE SERVICE CHECK: nsca_server;nsca;2;testOK
+[1506398236] SERVICE ALERT: nsca_server;nsca;CRITICAL;SOFT;1;testOK
+[1506398468] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506398666] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;2;testOK
+[1506398666] PASSIVE SERVICE CHECK: nsca_server;nsca;2;testOK
+[1506398666] SERVICE ALERT: nsca_server;nsca;CRITICAL;SOFT;2;testOK
+[1506399739] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506399739] PASSIVE SERVICE CHECK: nsca_server;nsca;0;testOK:10
+[1506399739] SERVICE ALERT: nsca_server;nsca;OK;SOFT;3;testOK:10
+[1506400562] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506400965] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 26s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506401806] Auto-save of retention data completed successfully.
+[1506402068] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506402226] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 1m 0s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506403486] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 1m 0s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506404162] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506404745] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 59s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506405406] Auto-save of retention data completed successfully.
+[1506405668] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506406005] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 59s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506407265] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 59s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506407762] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506407944] Caught SIGTERM, shutting down...
+[1506407944] Successfully shutdown... (PID=6367)
+[1506407944] Event broker module 'NERD' deinitialized successfully.
+[1506407945] Nagios 4.3.4 starting... (PID=12691)
+[1506407945] Local time is Tue Sep 26 14:39:05 CST 2017
+[1506407945] LOG VERSION: 2.0
+[1506407945] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506407945] qh: core query handler registered
+[1506407945] nerd: Channel hostchecks registered successfully
+[1506407945] nerd: Channel servicechecks registered successfully
+[1506407945] nerd: Channel opathchecks registered successfully
+[1506407945] nerd: Fully initialized and ready to rock!
+[1506407945] wproc: Successfully registered manager as @wproc with query handler
+[1506407945] wproc: Registry request: name=Core Worker 12696;pid=12696
+[1506407945] wproc: Registry request: name=Core Worker 12695;pid=12695
+[1506407945] wproc: Registry request: name=Core Worker 12694;pid=12694
+[1506407945] wproc: Registry request: name=Core Worker 12693;pid=12693
+[1506407945] Warning: Host performance command 'process-host-perfdata' was not found - host performance data will not be processed!
+[1506407945] Warning: Service performance command 'process-service-perfdata' was not found - service performance data will not be processed!
+[1506407945] Successfully launched command file worker with pid 12697
+[1506408485] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 19s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506408670] Caught SIGTERM, shutting down...
+[1506408670] Successfully shutdown... (PID=12691)
+[1506408670] Event broker module 'NERD' deinitialized successfully.
+[1506408671] Nagios 4.3.4 starting... (PID=13500)
+[1506408671] Local time is Tue Sep 26 14:51:11 CST 2017
+[1506408671] LOG VERSION: 2.0
+[1506408671] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506408671] qh: core query handler registered
+[1506408671] nerd: Channel hostchecks registered successfully
+[1506408671] nerd: Channel servicechecks registered successfully
+[1506408671] nerd: Channel opathchecks registered successfully
+[1506408671] nerd: Fully initialized and ready to rock!
+[1506408671] wproc: Successfully registered manager as @wproc with query handler
+[1506408671] wproc: Registry request: name=Core Worker 13502;pid=13502
+[1506408671] wproc: Registry request: name=Core Worker 13503;pid=13503
+[1506408671] wproc: Registry request: name=Core Worker 13504;pid=13504
+[1506408671] wproc: Registry request: name=Core Worker 13505;pid=13505
+[1506408671] Warning: Host performance command 'process-host-perfdata' was not found - host performance data will not be processed!
+[1506408671] Warning: Service performance command 'process-service-perfdata' was not found - service performance data will not be processed!
+[1506408671] Successfully launched command file worker with pid 13506
+[1506409268] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506409691] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506410951] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 1m 0s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506411216] Caught SIGTERM, shutting down...
+[1506411216] Successfully shutdown... (PID=13500)
+[1506411216] Event broker module 'NERD' deinitialized successfully.
+[1506411217] Nagios 4.3.4 starting... (PID=16400)
+[1506411217] Local time is Tue Sep 26 15:33:37 CST 2017
+[1506411217] LOG VERSION: 2.0
+[1506411217] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506411217] qh: core query handler registered
+[1506411217] nerd: Channel hostchecks registered successfully
+[1506411217] nerd: Channel servicechecks registered successfully
+[1506411217] nerd: Channel opathchecks registered successfully
+[1506411217] nerd: Fully initialized and ready to rock!
+[1506411217] wproc: Successfully registered manager as @wproc with query handler
+[1506411217] wproc: Registry request: name=Core Worker 16402;pid=16402
+[1506411217] wproc: Registry request: name=Core Worker 16403;pid=16403
+[1506411217] wproc: Registry request: name=Core Worker 16404;pid=16404
+[1506411217] wproc: Registry request: name=Core Worker 16405;pid=16405
+[1506411217] Warning: Host performance command 'process-host-perfdata' was not found - host performance data will not be processed!
+[1506411217] Warning: Service performance command 'process-service-perfdata' was not found - service performance data will not be processed!
+[1506411217] Successfully launched command file worker with pid 16406
+[1506411362] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506411674] Caught SIGTERM, shutting down...
+[1506411674] Successfully shutdown... (PID=16400)
+[1506411674] Event broker module 'NERD' deinitialized successfully.
+[1506411675] Nagios 4.3.4 starting... (PID=16923)
+[1506411675] Local time is Tue Sep 26 15:41:15 CST 2017
+[1506411675] LOG VERSION: 2.0
+[1506411675] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506411675] qh: core query handler registered
+[1506411675] nerd: Channel hostchecks registered successfully
+[1506411675] nerd: Channel servicechecks registered successfully
+[1506411675] nerd: Channel opathchecks registered successfully
+[1506411675] nerd: Fully initialized and ready to rock!
+[1506411675] wproc: Successfully registered manager as @wproc with query handler
+[1506411675] wproc: Registry request: name=Core Worker 16925;pid=16925
+[1506411675] wproc: Registry request: name=Core Worker 16926;pid=16926
+[1506411675] wproc: Registry request: name=Core Worker 16927;pid=16927
+[1506411675] wproc: Registry request: name=Core Worker 16928;pid=16928
+[1506411675] Warning: Host performance command 'process-host-perfdata' was not found - host performance data will not be processed!
+[1506411675] Warning: Service performance command 'process-service-perfdata' was not found - service performance data will not be processed!
+[1506411675] Successfully launched command file worker with pid 16929
+[1506412155] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 4s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506412868] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506413415] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 1m 0s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.

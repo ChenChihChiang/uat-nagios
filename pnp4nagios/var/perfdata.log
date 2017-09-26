@@ -1,0 +1,4 @@
+2017-09-26 15:12:07 [14840] [0] /bin/rrdtool update /usr/local/pnp4nagios/var/perfdata/uat-nginx/_HOST_.rrd 1506409907:2.805000:0
+2017-09-26 15:12:07 [14840] [0] rrdtool update returns 256
+2017-09-26 15:17:08 [15143] [0] /bin/rrdtool update /usr/local/pnp4nagios/var/perfdata/uat-nginx/_HOST_.rrd 1506410207:2.792000:0
+2017-09-26 15:17:08 [15143] [0] rrdtool update returns 256
