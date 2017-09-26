@@ -568,3 +568,1066 @@
 [1506412155] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 4s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
 [1506412868] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
 [1506413415] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 1m 0s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506414675] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 1m 0s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506414807] Caught SIGTERM, shutting down...
+[1506414807] Successfully shutdown... (PID=16923)
+[1506414807] Event broker module 'NERD' deinitialized successfully.
+[1506414809] Nagios 4.3.4 starting... (PID=21143)
+[1506414809] Local time is Tue Sep 26 16:33:29 CST 2017
+[1506414809] LOG VERSION: 2.0
+[1506414809] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506414809] qh: core query handler registered
+[1506414809] nerd: Channel hostchecks registered successfully
+[1506414809] nerd: Channel servicechecks registered successfully
+[1506414809] nerd: Channel opathchecks registered successfully
+[1506414809] nerd: Fully initialized and ready to rock!
+[1506414809] wproc: Successfully registered manager as @wproc with query handler
+[1506414809] wproc: Registry request: name=Core Worker 21148;pid=21148
+[1506414809] wproc: Registry request: name=Core Worker 21147;pid=21147
+[1506414809] wproc: Registry request: name=Core Worker 21146;pid=21146
+[1506414809] wproc: Registry request: name=Core Worker 21145;pid=21145
+[1506414809] Successfully launched command file worker with pid 21149
+[1506414887] Caught SIGTERM, shutting down...
+[1506414887] Successfully shutdown... (PID=21143)
+[1506414887] Event broker module 'NERD' deinitialized successfully.
+[1506414889] Nagios 4.3.4 starting... (PID=21305)
+[1506414889] Local time is Tue Sep 26 16:34:49 CST 2017
+[1506414889] LOG VERSION: 2.0
+[1506414889] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506414889] qh: core query handler registered
+[1506414889] nerd: Channel hostchecks registered successfully
+[1506414889] nerd: Channel servicechecks registered successfully
+[1506414889] nerd: Channel opathchecks registered successfully
+[1506414889] nerd: Fully initialized and ready to rock!
+[1506414889] wproc: Successfully registered manager as @wproc with query handler
+[1506414889] wproc: Registry request: name=Core Worker 21310;pid=21310
+[1506414889] wproc: Registry request: name=Core Worker 21307;pid=21307
+[1506414889] wproc: Registry request: name=Core Worker 21308;pid=21308
+[1506414889] wproc: Registry request: name=Core Worker 21309;pid=21309
+[1506414889] Successfully launched command file worker with pid 21311
+[1506414962] SERVICE NOTIFICATION: nagiosadmin;uat-nginx;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415029] SERVICE ALERT: uat-database;HTTP;CRITICAL;SOFT;1;connect to address 10.0.101.10 and port 80: Connection refused
+[1506415039] SERVICE ALERT: uat-services;HTTP;CRITICAL;SOFT;1;connect to address 10.0.100.10 and port 80: Connection refused
+[1506415089] SERVICE ALERT: uat-database;HTTP;CRITICAL;SOFT;2;connect to address 10.0.101.10 and port 80: Connection refused
+[1506415099] SERVICE ALERT: uat-services;HTTP;CRITICAL;SOFT;2;connect to address 10.0.100.10 and port 80: Connection refused
+[1506415149] SERVICE ALERT: uat-database;HTTP;CRITICAL;SOFT;3;connect to address 10.0.101.10 and port 80: Connection refused
+[1506415159] SERVICE ALERT: uat-services;HTTP;CRITICAL;SOFT;3;connect to address 10.0.100.10 and port 80: Connection refused
+[1506415170] SERVICE ALERT: uat-database;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415179] SERVICE ALERT: uat-services;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415209] SERVICE ALERT: uat-database;HTTP;CRITICAL;HARD;4;connect to address 10.0.101.10 and port 80: Connection refused
+[1506415219] SERVICE ALERT: uat-services;HTTP;CRITICAL;HARD;4;connect to address 10.0.100.10 and port 80: Connection refused
+[1506415230] SERVICE ALERT: uat-database;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415239] SERVICE ALERT: uat-services;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415290] SERVICE ALERT: uat-database;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415299] SERVICE ALERT: uat-services;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415350] SERVICE ALERT: uat-database;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415350] SERVICE NOTIFICATION: nagiosadmin;uat-database;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415359] SERVICE ALERT: uat-services;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415359] SERVICE NOTIFICATION: nagiosadmin;uat-services;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506415909] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 34s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506416208] Caught SIGTERM, shutting down...
+[1506416208] Successfully shutdown... (PID=21305)
+[1506416208] Event broker module 'NERD' deinitialized successfully.
+[1506416209] Nagios 4.3.4 starting... (PID=23100)
+[1506416209] Local time is Tue Sep 26 16:56:49 CST 2017
+[1506416209] LOG VERSION: 2.0
+[1506416209] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506416209] qh: core query handler registered
+[1506416209] nerd: Channel hostchecks registered successfully
+[1506416209] nerd: Channel servicechecks registered successfully
+[1506416209] nerd: Channel opathchecks registered successfully
+[1506416209] nerd: Fully initialized and ready to rock!
+[1506416209] wproc: Successfully registered manager as @wproc with query handler
+[1506416209] wproc: Registry request: name=Core Worker 23105;pid=23105
+[1506416209] wproc: Registry request: name=Core Worker 23102;pid=23102
+[1506416209] wproc: Registry request: name=Core Worker 23103;pid=23103
+[1506416209] wproc: Registry request: name=Core Worker 23104;pid=23104
+[1506416209] Successfully launched command file worker with pid 23106
+[1506416344] SERVICE ALERT: uat-bastion;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506416404] SERVICE ALERT: uat-bastion;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506416438] SERVICE ALERT: uat-bastion;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416464] SERVICE ALERT: uat-bastion;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1506416468] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416479] SERVICE ALERT: uat-bastion;SSH;CRITICAL;SOFT;1;connect to address 10.0.0.10 and port 22: Connection refused
+[1506416498] SERVICE ALERT: uat-bastion;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416524] SERVICE ALERT: uat-bastion;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506416539] SERVICE ALERT: uat-bastion;SSH;CRITICAL;SOFT;2;connect to address 10.0.0.10 and port 22: Connection refused
+[1506416558] SERVICE ALERT: uat-bastion;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416599] SERVICE ALERT: uat-bastion;SSH;CRITICAL;SOFT;3;connect to address 10.0.0.10 and port 22: Connection refused
+[1506416618] SERVICE ALERT: uat-bastion;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416618] SERVICE NOTIFICATION: nagiosadmin;uat-bastion;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506416659] SERVICE ALERT: uat-bastion;SSH;CRITICAL;HARD;4;connect to address 10.0.0.10 and port 22: Connection refused
+[1506416723] Caught SIGTERM, shutting down...
+[1506416723] Successfully shutdown... (PID=23100)
+[1506416723] Event broker module 'NERD' deinitialized successfully.
+[1506416724] Nagios 4.3.4 starting... (PID=23911)
+[1506416724] Local time is Tue Sep 26 17:05:24 CST 2017
+[1506416724] LOG VERSION: 2.0
+[1506416724] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506416724] qh: core query handler registered
+[1506416724] nerd: Channel hostchecks registered successfully
+[1506416724] nerd: Channel servicechecks registered successfully
+[1506416724] nerd: Channel opathchecks registered successfully
+[1506416724] nerd: Fully initialized and ready to rock!
+[1506416724] wproc: Successfully registered manager as @wproc with query handler
+[1506416724] wproc: Registry request: name=Core Worker 23913;pid=23913
+[1506416724] wproc: Registry request: name=Core Worker 23914;pid=23914
+[1506416724] wproc: Registry request: name=Core Worker 23915;pid=23915
+[1506416724] wproc: Registry request: name=Core Worker 23916;pid=23916
+[1506416724] Successfully launched command file worker with pid 23917
+[1506417144] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 35s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506418404] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 1m 0s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506418782] Caught SIGTERM, shutting down...
+[1506418782] Successfully shutdown... (PID=23911)
+[1506418782] Event broker module 'NERD' deinitialized successfully.
+[1506418944] Nagios 4.3.4 starting... (PID=27005)
+[1506418944] Local time is Tue Sep 26 17:42:24 CST 2017
+[1506418944] LOG VERSION: 2.0
+[1506418944] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506418944] qh: core query handler registered
+[1506418944] nerd: Channel hostchecks registered successfully
+[1506418944] nerd: Channel servicechecks registered successfully
+[1506418944] nerd: Channel opathchecks registered successfully
+[1506418944] nerd: Fully initialized and ready to rock!
+[1506418944] wproc: Successfully registered manager as @wproc with query handler
+[1506418944] wproc: Registry request: name=Core Worker 27010;pid=27010
+[1506418944] wproc: Registry request: name=Core Worker 27009;pid=27009
+[1506418944] wproc: Registry request: name=Core Worker 27008;pid=27008
+[1506418944] wproc: Registry request: name=Core Worker 27007;pid=27007
+[1506418945] Successfully launched command file worker with pid 27011
+[1506418975] wproc: Core Worker 27010: job 0 (pid=27012) timed out. Killing it
+[1506418975] wproc: CHECK job 0 from worker Core Worker 27010 timed out after 30.02s
+[1506418975] wproc:   host=dev-bastion; service=(null);
+[1506418975] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506418975] Warning: Check of host 'dev-bastion' timed out after 30.02 seconds
+[1506418975] HOST ALERT: dev-bastion;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1506418975] wproc: Core Worker 27010: job 0 (pid=27012): Dormant child reaped
+[1506419007] wproc: Core Worker 27007: job 2 (pid=27047) timed out. Killing it
+[1506419007] wproc: CHECK job 2 from worker Core Worker 27007 timed out after 30.01s
+[1506419007] wproc:   host=dev-database; service=(null);
+[1506419007] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419007] Warning: Check of host 'dev-database' timed out after 30.01 seconds
+[1506419007] HOST ALERT: dev-database;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1506419007] wproc: Core Worker 27007: job 2 (pid=27047): Dormant child reaped
+[1506419020] wproc: Core Worker 27007: job 3 (pid=27074) timed out. Killing it
+[1506419020] wproc: CHECK job 3 from worker Core Worker 27007 timed out after 30.01s
+[1506419020] wproc:   host=dev-bastion; service=(null);
+[1506419020] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419020] Warning: Check of host 'dev-bastion' timed out after 30.01 seconds
+[1506419020] HOST ALERT: dev-bastion;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1506419020] wproc: Core Worker 27007: job 3 (pid=27074): Dormant child reaped
+[1506419040] wproc: Core Worker 27009: job 5 (pid=27109) timed out. Killing it
+[1506419040] wproc: CHECK job 5 from worker Core Worker 27009 timed out after 30.01s
+[1506419040] wproc:   host=dev-nginx; service=(null);
+[1506419040] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419040] Warning: Check of host 'dev-nginx' timed out after 30.01 seconds
+[1506419040] HOST ALERT: dev-nginx;DOWN;SOFT;1;(Host check timed out after 30.01 seconds)
+[1506419040] wproc: Core Worker 27009: job 5 (pid=27109): Dormant child reaped
+[1506419063] wproc: Core Worker 27008: job 7 (pid=27149) timed out. Killing it
+[1506419063] wproc: CHECK job 7 from worker Core Worker 27008 timed out after 30.01s
+[1506419063] wproc:   host=dev-database; service=(null);
+[1506419063] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419063] Warning: Check of host 'dev-database' timed out after 30.01 seconds
+[1506419063] HOST ALERT: dev-database;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1506419063] wproc: Core Worker 27008: job 7 (pid=27149): Dormant child reaped
+[1506419067] wproc: Core Worker 27010: job 8 (pid=27156) timed out. Killing it
+[1506419067] wproc: CHECK job 8 from worker Core Worker 27010 timed out after 30.01s
+[1506419067] wproc:   host=dev-bastion; service=(null);
+[1506419067] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419067] Warning: Check of host 'dev-bastion' timed out after 30.01 seconds
+[1506419067] HOST ALERT: dev-bastion;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1506419067] wproc: Core Worker 27010: job 8 (pid=27156): Dormant child reaped
+[1506419074] wproc: Core Worker 27008: job 8 (pid=27172) timed out. Killing it
+[1506419074] wproc: CHECK job 8 from worker Core Worker 27008 timed out after 30.02s
+[1506419074] wproc:   host=dev-services; service=(null);
+[1506419074] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419074] Warning: Check of host 'dev-services' timed out after 30.02 seconds
+[1506419074] HOST ALERT: dev-services;DOWN;SOFT;1;(Host check timed out after 30.02 seconds)
+[1506419074] wproc: Core Worker 27008: job 8 (pid=27172): Dormant child reaped
+[1506419077] wproc: Core Worker 27010: job 9 (pid=27175) timed out. Killing it
+[1506419077] wproc: CHECK job 9 from worker Core Worker 27010 timed out after 30.01s
+[1506419077] wproc:   host=dev-nginx; service=(null);
+[1506419077] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419077] Warning: Check of host 'dev-nginx' timed out after 30.01 seconds
+[1506419077] HOST ALERT: dev-nginx;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1506419077] wproc: Core Worker 27010: job 9 (pid=27175): Dormant child reaped
+[1506419094] SERVICE ALERT: dev-bastion;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419099] SERVICE ALERT: dev-database;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419104] SERVICE ALERT: dev-nginx;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419108] SERVICE ALERT: dev-services;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419124] wproc: Core Worker 27009: job 12 (pid=27258) timed out. Killing it
+[1506419124] wproc: CHECK job 12 from worker Core Worker 27009 timed out after 30.02s
+[1506419124] wproc:   host=dev-bastion; service=(null);
+[1506419124] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419124] Warning: Check of host 'dev-bastion' timed out after 30.02 seconds
+[1506419124] HOST ALERT: dev-bastion;DOWN;SOFT;4;(Host check timed out after 30.02 seconds)
+[1506419124] wproc: Core Worker 27009: job 12 (pid=27258): Dormant child reaped
+[1506419129] wproc: Core Worker 27007: job 12 (pid=27278) timed out. Killing it
+[1506419129] wproc: CHECK job 12 from worker Core Worker 27007 timed out after 30.02s
+[1506419129] wproc:   host=dev-database; service=(null);
+[1506419129] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419129] Warning: Check of host 'dev-database' timed out after 30.02 seconds
+[1506419129] HOST ALERT: dev-database;DOWN;SOFT;3;(Host check timed out after 30.02 seconds)
+[1506419129] wproc: Core Worker 27007: job 12 (pid=27278): Dormant child reaped
+[1506419134] wproc: Core Worker 27009: job 13 (pid=27303) timed out. Killing it
+[1506419134] wproc: CHECK job 13 from worker Core Worker 27009 timed out after 30.01s
+[1506419134] wproc:   host=dev-nginx; service=(null);
+[1506419134] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419134] Warning: Check of host 'dev-nginx' timed out after 30.01 seconds
+[1506419134] HOST ALERT: dev-nginx;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1506419134] wproc: Core Worker 27009: job 13 (pid=27303): Dormant child reaped
+[1506419138] wproc: Core Worker 27007: job 13 (pid=27307) timed out. Killing it
+[1506419138] wproc: CHECK job 13 from worker Core Worker 27007 timed out after 30.01s
+[1506419138] wproc:   host=dev-services; service=(null);
+[1506419138] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419138] Warning: Check of host 'dev-services' timed out after 30.01 seconds
+[1506419138] HOST ALERT: dev-services;DOWN;SOFT;2;(Host check timed out after 30.01 seconds)
+[1506419138] wproc: Core Worker 27007: job 13 (pid=27307): Dormant child reaped
+[1506419142] SERVICE ALERT: dev-bastion;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1506419147] SERVICE ALERT: dev-database;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1506419151] SERVICE ALERT: dev-nginx;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1506419156] SERVICE ALERT: dev-services;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1506419172] wproc: Core Worker 27007: job 15 (pid=27369) timed out. Killing it
+[1506419172] wproc: CHECK job 15 from worker Core Worker 27007 timed out after 30.01s
+[1506419172] wproc:   host=dev-bastion; service=(null);
+[1506419172] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419172] Warning: Check of host 'dev-bastion' timed out after 30.01 seconds
+[1506419172] HOST ALERT: dev-bastion;DOWN;SOFT;5;(Host check timed out after 30.01 seconds)
+[1506419172] wproc: Core Worker 27007: job 15 (pid=27369): Dormant child reaped
+[1506419177] wproc: Core Worker 27007: job 16 (pid=27380) timed out. Killing it
+[1506419177] wproc: CHECK job 16 from worker Core Worker 27007 timed out after 30.02s
+[1506419177] wproc:   host=dev-database; service=(null);
+[1506419177] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419177] Warning: Check of host 'dev-database' timed out after 30.02 seconds
+[1506419177] HOST ALERT: dev-database;DOWN;SOFT;4;(Host check timed out after 30.02 seconds)
+[1506419177] wproc: Core Worker 27007: job 16 (pid=27380): Dormant child reaped
+[1506419181] wproc: Core Worker 27008: job 17 (pid=27384) timed out. Killing it
+[1506419181] wproc: CHECK job 17 from worker Core Worker 27008 timed out after 30.03s
+[1506419181] wproc:   host=dev-nginx; service=(null);
+[1506419181] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419181] Warning: Check of host 'dev-nginx' timed out after 30.03 seconds
+[1506419181] HOST ALERT: dev-nginx;DOWN;SOFT;4;(Host check timed out after 30.03 seconds)
+[1506419181] wproc: Core Worker 27008: job 17 (pid=27384): Dormant child reaped
+[1506419186] wproc: Core Worker 27008: job 18 (pid=27394) timed out. Killing it
+[1506419186] wproc: CHECK job 18 from worker Core Worker 27008 timed out after 30.01s
+[1506419186] wproc:   host=dev-services; service=(null);
+[1506419186] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419186] Warning: Check of host 'dev-services' timed out after 30.01 seconds
+[1506419186] HOST ALERT: dev-services;DOWN;SOFT;3;(Host check timed out after 30.01 seconds)
+[1506419186] wproc: Core Worker 27008: job 18 (pid=27394): Dormant child reaped
+[1506419208] wproc: Core Worker 27009: job 19 (pid=27439) timed out. Killing it
+[1506419208] wproc: CHECK job 19 from worker Core Worker 27009 timed out after 30.01s
+[1506419208] wproc:   host=dev-bastion; service=(null);
+[1506419208] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419208] Warning: Check of host 'dev-bastion' timed out after 30.01 seconds
+[1506419208] HOST ALERT: dev-bastion;DOWN;SOFT;6;(Host check timed out after 30.01 seconds)
+[1506419208] wproc: Core Worker 27009: job 19 (pid=27439): Dormant child reaped
+[1506419213] wproc: Core Worker 27007: job 19 (pid=27442) timed out. Killing it
+[1506419213] wproc: CHECK job 19 from worker Core Worker 27007 timed out after 30.01s
+[1506419213] wproc:   host=dev-database; service=(null);
+[1506419213] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419213] Warning: Check of host 'dev-database' timed out after 30.01 seconds
+[1506419213] HOST ALERT: dev-database;DOWN;SOFT;5;(Host check timed out after 30.01 seconds)
+[1506419213] wproc: Core Worker 27007: job 19 (pid=27442): Dormant child reaped
+[1506419217] wproc: Core Worker 27009: job 20 (pid=27449) timed out. Killing it
+[1506419217] wproc: CHECK job 20 from worker Core Worker 27009 timed out after 30.01s
+[1506419217] wproc:   host=dev-nginx; service=(null);
+[1506419217] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419217] Warning: Check of host 'dev-nginx' timed out after 30.01 seconds
+[1506419217] HOST ALERT: dev-nginx;DOWN;SOFT;5;(Host check timed out after 30.01 seconds)
+[1506419217] wproc: Core Worker 27009: job 20 (pid=27449): Dormant child reaped
+[1506419222] wproc: Core Worker 27010: job 21 (pid=27454) timed out. Killing it
+[1506419222] wproc: CHECK job 21 from worker Core Worker 27010 timed out after 30.02s
+[1506419222] wproc:   host=dev-services; service=(null);
+[1506419222] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419222] Warning: Check of host 'dev-services' timed out after 30.02 seconds
+[1506419222] HOST ALERT: dev-services;DOWN;SOFT;4;(Host check timed out after 30.02 seconds)
+[1506419222] wproc: Core Worker 27010: job 21 (pid=27454): Dormant child reaped
+[1506419235] SERVICE ALERT: dev-bastion;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419239] SERVICE ALERT: dev-database;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419244] SERVICE ALERT: dev-nginx;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419249] SERVICE ALERT: dev-services;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506419263] wproc: Core Worker 27009: job 23 (pid=27518) timed out. Killing it
+[1506419263] wproc: CHECK job 23 from worker Core Worker 27009 timed out after 30.01s
+[1506419263] wproc:   host=dev-bastion; service=(null);
+[1506419263] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419263] Warning: Check of host 'dev-bastion' timed out after 30.01 seconds
+[1506419263] HOST ALERT: dev-bastion;DOWN;SOFT;7;(Host check timed out after 30.01 seconds)
+[1506419263] wproc: Core Worker 27009: job 23 (pid=27518): Dormant child reaped
+[1506419269] wproc: Core Worker 27010: job 24 (pid=27534) timed out. Killing it
+[1506419269] wproc: CHECK job 24 from worker Core Worker 27010 timed out after 30.01s
+[1506419269] wproc:   host=dev-database; service=(null);
+[1506419269] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419269] Warning: Check of host 'dev-database' timed out after 30.01 seconds
+[1506419269] HOST ALERT: dev-database;DOWN;SOFT;6;(Host check timed out after 30.01 seconds)
+[1506419269] wproc: Core Worker 27010: job 24 (pid=27534): Dormant child reaped
+[1506419272] wproc: Core Worker 27008: job 24 (pid=27538) timed out. Killing it
+[1506419272] wproc: CHECK job 24 from worker Core Worker 27008 timed out after 30.01s
+[1506419272] wproc:   host=dev-nginx; service=(null);
+[1506419272] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419272] Warning: Check of host 'dev-nginx' timed out after 30.01 seconds
+[1506419272] HOST ALERT: dev-nginx;DOWN;SOFT;6;(Host check timed out after 30.01 seconds)
+[1506419272] wproc: Core Worker 27008: job 24 (pid=27538): Dormant child reaped
+[1506419278] wproc: Core Worker 27008: job 25 (pid=27548) timed out. Killing it
+[1506419278] wproc: CHECK job 25 from worker Core Worker 27008 timed out after 30.01s
+[1506419278] wproc:   host=dev-services; service=(null);
+[1506419278] wproc:   early_timeout=1; exited_ok=0; wait_status=0; error_code=62;
+[1506419278] Warning: Check of host 'dev-services' timed out after 30.01 seconds
+[1506419278] HOST ALERT: dev-services;DOWN;SOFT;5;(Host check timed out after 30.01 seconds)
+[1506419278] wproc: Core Worker 27008: job 25 (pid=27548): Dormant child reaped
+[1506419299] Caught SIGTERM, shutting down...
+[1506419299] Successfully shutdown... (PID=27005)
+[1506419299] Event broker module 'NERD' deinitialized successfully.
+[1506419300] Nagios 4.3.4 starting... (PID=27719)
+[1506419300] Local time is Tue Sep 26 17:48:20 CST 2017
+[1506419300] LOG VERSION: 2.0
+[1506419300] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506419300] qh: core query handler registered
+[1506419300] nerd: Channel hostchecks registered successfully
+[1506419300] nerd: Channel servicechecks registered successfully
+[1506419300] nerd: Channel opathchecks registered successfully
+[1506419300] nerd: Fully initialized and ready to rock!
+[1506419300] wproc: Successfully registered manager as @wproc with query handler
+[1506419300] wproc: Registry request: name=Core Worker 27724;pid=27724
+[1506419300] wproc: Registry request: name=Core Worker 27723;pid=27723
+[1506419300] wproc: Registry request: name=Core Worker 27722;pid=27722
+[1506419300] wproc: Registry request: name=Core Worker 27721;pid=27721
+[1506419300] Successfully launched command file worker with pid 27725
+[1506419548] Caught SIGTERM, shutting down...
+[1506419548] Successfully shutdown... (PID=27719)
+[1506419548] Event broker module 'NERD' deinitialized successfully.
+[1506419549] Nagios 4.3.4 starting... (PID=28130)
+[1506419549] Local time is Tue Sep 26 17:52:29 CST 2017
+[1506419549] LOG VERSION: 2.0
+[1506419549] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506419549] qh: core query handler registered
+[1506419549] nerd: Channel hostchecks registered successfully
+[1506419549] nerd: Channel servicechecks registered successfully
+[1506419549] nerd: Channel opathchecks registered successfully
+[1506419549] nerd: Fully initialized and ready to rock!
+[1506419549] wproc: Successfully registered manager as @wproc with query handler
+[1506419549] wproc: Registry request: name=Core Worker 28135;pid=28135
+[1506419549] wproc: Registry request: name=Core Worker 28132;pid=28132
+[1506419549] wproc: Registry request: name=Core Worker 28133;pid=28133
+[1506419549] wproc: Registry request: name=Core Worker 28134;pid=28134
+[1506419549] Successfully launched command file worker with pid 28136
+[1506419608] Warning: The results of service 'nsca' on host 'nsca_server' are stale by 0d 0h 0m 4s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506419697] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506419697] PASSIVE SERVICE CHECK: nsca_server;nsca;0;testOK:10
+[1506419748] Caught SIGTERM, shutting down...
+[1506419748] Successfully shutdown... (PID=28130)
+[1506419748] Event broker module 'NERD' deinitialized successfully.
+[1506419749] Nagios 4.3.4 starting... (PID=28560)
+[1506419749] Local time is Tue Sep 26 17:55:49 CST 2017
+[1506419749] LOG VERSION: 2.0
+[1506419749] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506419749] qh: core query handler registered
+[1506419749] nerd: Channel hostchecks registered successfully
+[1506419749] nerd: Channel servicechecks registered successfully
+[1506419749] nerd: Channel opathchecks registered successfully
+[1506419749] nerd: Fully initialized and ready to rock!
+[1506419749] wproc: Successfully registered manager as @wproc with query handler
+[1506419749] wproc: Registry request: name=Core Worker 28565;pid=28565
+[1506419749] wproc: Registry request: name=Core Worker 28562;pid=28562
+[1506419749] wproc: Registry request: name=Core Worker 28563;pid=28563
+[1506419749] wproc: Registry request: name=Core Worker 28564;pid=28564
+[1506419749] Successfully launched command file worker with pid 28566
+[1506419807] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_nginx;0;testOK
+[1506419807] Warning:  Passive check result was received for service 'dev_nginx' on host 'dev_server', but the host could not be found!
+[1506419807] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_nginx;0;testOK
+[1506419807] External command error: Command failed
+[1506419822] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419822] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419822] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419822] External command error: Command failed
+[1506419879] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419879] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419879] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419879] External command error: Command failed
+[1506419879] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419879] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419879] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419879] External command error: Command failed
+[1506419880] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419880] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419880] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419880] External command error: Command failed
+[1506419881] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419881] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419881] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419881] External command error: Command failed
+[1506419882] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419882] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419882] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419882] External command error: Command failed
+[1506419884] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419884] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419884] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419884] External command error: Command failed
+[1506419888] Caught SIGTERM, shutting down...
+[1506419888] Successfully shutdown... (PID=28560)
+[1506419888] Event broker module 'NERD' deinitialized successfully.
+[1506419889] Nagios 4.3.4 starting... (PID=28858)
+[1506419889] Local time is Tue Sep 26 17:58:09 CST 2017
+[1506419889] LOG VERSION: 2.0
+[1506419889] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506419889] qh: core query handler registered
+[1506419889] nerd: Channel hostchecks registered successfully
+[1506419889] nerd: Channel servicechecks registered successfully
+[1506419889] nerd: Channel opathchecks registered successfully
+[1506419889] nerd: Fully initialized and ready to rock!
+[1506419889] wproc: Successfully registered manager as @wproc with query handler
+[1506419889] wproc: Registry request: name=Core Worker 28861;pid=28861
+[1506419889] wproc: Registry request: name=Core Worker 28862;pid=28862
+[1506419889] wproc: Registry request: name=Core Worker 28863;pid=28863
+[1506419889] wproc: Registry request: name=Core Worker 28860;pid=28860
+[1506419889] Successfully launched command file worker with pid 28864
+[1506419929] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419929] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419929] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419929] External command error: Command failed
+[1506419930] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419930] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419930] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419930] External command error: Command failed
+[1506419931] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419931] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419931] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419931] External command error: Command failed
+[1506419931] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419931] Warning:  Passive check result was received for service 'dev_services' on host 'dev_server', but the host could not be found!
+[1506419931] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_services;0;testOK
+[1506419931] External command error: Command failed
+[1506419980] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419980] Warning:  Passive check result was received for service 'dev_bastion' on host 'dev_server', but the host could not be found!
+[1506419980] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419980] External command error: Command failed
+[1506419986] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419986] Warning:  Passive check result was received for service 'dev_bastion' on host 'dev_server', but the host could not be found!
+[1506419986] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419986] External command error: Command failed
+[1506419987] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419987] Warning:  Passive check result was received for service 'dev_bastion' on host 'dev_server', but the host could not be found!
+[1506419987] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419987] External command error: Command failed
+[1506419988] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419988] Warning:  Passive check result was received for service 'dev_bastion' on host 'dev_server', but the host could not be found!
+[1506419988] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419988] External command error: Command failed
+[1506419989] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419989] Warning:  Passive check result was received for service 'dev_bastion' on host 'dev_server', but the host could not be found!
+[1506419989] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506419989] External command error: Command failed
+[1506420000] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506420000] Warning:  Passive check result was received for service 'dev_bastion' on host 'dev_server', but the host could not be found!
+[1506420000] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_server;dev_bastion;0;testOK
+[1506420000] External command error: Command failed
+[1506420038] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev_bastion;dev_server;0;testOK
+[1506420038] Warning:  Passive check result was received for service 'dev_server' on host 'dev_bastion', but the host could not be found!
+[1506420038] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev_bastion;dev_server;0;testOK
+[1506420038] External command error: Command failed
+[1506420057] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506420057] PASSIVE SERVICE CHECK: nsca_server;nsca;0;testOK:10
+[1506420067] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506420067] PASSIVE SERVICE CHECK: nsca_server;nsca;0;testOK:10
+[1506420142] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;nsca;0;testOK;10
+[1506420142] Warning:  Passive check result was received for service 'nsca' on host 'dev-nginx', but the service could not be found!
+[1506420142] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev-nginx;nsca;0;testOK;10
+[1506420142] External command error: Command failed
+[1506420163] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;testOK;10
+[1506420163] Warning:  Passive check result was received for service 'dev-nginx' on host 'dev-nginx', but the service could not be found!
+[1506420163] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;testOK;10
+[1506420163] External command error: Command failed
+[1506420171] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;testOK;10
+[1506420171] Warning:  Passive check result was received for service 'dev-nginx' on host 'dev-nginx', but the service could not be found!
+[1506420171] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;testOK;10
+[1506420171] External command error: Command failed
+[1506420248] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;test
+[1506420248] Warning:  Passive check result was received for service 'dev-nginx' on host 'dev-nginx', but the service could not be found!
+[1506420248] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;test
+[1506420248] External command error: Command failed
+[1506420248] Warning: The results of service 'Current Users' on host 'dev-bastion' are stale by 0d 0h 0m 11s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420248] Warning: The results of service 'Current Users' on host 'dev-database' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420248] Warning: The results of service 'Total Processes' on host 'dev-database' are stale by 0d 0h 0m 15s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420248] Warning: The results of service 'Current Load' on host 'dev-nginx' are stale by 0d 0h 0m 48s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420248] Warning: The results of service 'Current Users' on host 'dev-nginx' are stale by 0d 0h 0m 1s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420248] Warning: The results of service 'Current Load' on host 'dev-services' are stale by 0d 0h 0m 44s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420282] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;test
+[1506420282] Warning:  Passive check result was received for service 'dev-nginx' on host 'dev-nginx', but the service could not be found!
+[1506420282] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-nginx;0;test
+[1506420282] External command error: Command failed
+[1506420303] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506420309] Warning: The results of service 'Current Users' on host 'dev-services' are stale by 0d 0h 0m 58s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420315] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-servers;0;test
+[1506420315] Warning:  Passive check result was received for service 'dev-servers' on host 'dev-nginx', but the service could not be found!
+[1506420315] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;dev-nginx;dev-servers;0;test
+[1506420315] External command error: Command failed
+[1506420345] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;SSH;0;test
+[1506420345] PASSIVE SERVICE CHECK: dev-nginx;SSH;0;test
+[1506420345] SERVICE ALERT: dev-nginx;SSH;OK;SOFT;2;test
+[1506420365] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;SSH;0;test
+[1506420365] PASSIVE SERVICE CHECK: dev-nginx;SSH;0;test
+[1506420366] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;SSH;0;test
+[1506420366] PASSIVE SERVICE CHECK: dev-nginx;SSH;0;test
+[1506420368] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;SSH;0;test
+[1506420368] PASSIVE SERVICE CHECK: dev-nginx;SSH;0;test
+[1506420368] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;SSH;0;test
+[1506420368] PASSIVE SERVICE CHECK: dev-nginx;SSH;0;test
+[1506420368] Warning: The results of service 'HTTP' on host 'dev-bastion' are stale by 0d 0h 0m 24s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420368] Warning: The results of service 'HTTP' on host 'dev-database' are stale by 0d 0h 0m 19s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420368] Warning: The results of service 'HTTP' on host 'dev-nginx' are stale by 0d 0h 0m 14s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420368] Warning: The results of service 'HTTP' on host 'dev-services' are stale by 0d 0h 0m 10s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420379] SERVICE ALERT: dev-bastion;HTTP;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506420379] SERVICE ALERT: dev-database;HTTP;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506420379] SERVICE ALERT: dev-nginx;HTTP;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506420379] SERVICE ALERT: dev-services;HTTP;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506420429] Warning: The results of service 'PING' on host 'dev-bastion' are stale by 0d 0h 0m 38s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420429] Warning: The results of service 'Root Partition' on host 'dev-bastion' are stale by 0d 0h 0m 51s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420429] Warning: The results of service 'PING' on host 'dev-database' are stale by 0d 0h 0m 33s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420429] Warning: The results of service 'Root Partition' on host 'dev-database' are stale by 0d 0h 0m 46s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420429] Warning: The results of service 'PING' on host 'dev-nginx' are stale by 0d 0h 0m 29s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420429] Warning: The results of service 'Root Partition' on host 'dev-nginx' are stale by 0d 0h 0m 42s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420429] Warning: The results of service 'PING' on host 'dev-services' are stale by 0d 0h 0m 24s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420429] Warning: The results of service 'Root Partition' on host 'dev-services' are stale by 0d 0h 0m 37s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420440] SERVICE ALERT: dev-services;PING;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1506420440] SERVICE NOTIFICATION: nagiosadmin;dev-services;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506420440] SERVICE ALERT: dev-database;PING;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1506420440] SERVICE NOTIFICATION: nagiosadmin;dev-database;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506420440] SERVICE ALERT: dev-nginx;PING;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1506420440] SERVICE NOTIFICATION: nagiosadmin;dev-nginx;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506420440] SERVICE ALERT: dev-bastion;PING;CRITICAL;HARD;3;CRITICAL - Plugin timed out
+[1506420440] SERVICE NOTIFICATION: nagiosadmin;dev-bastion;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506420488] Warning: The results of service 'SSH' on host 'dev-bastion' are stale by 0d 0h 0m 3s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420488] Warning: The results of service 'Total Processes' on host 'dev-bastion' are stale by 0d 0h 0m 55s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420488] Warning: The results of service 'SSH' on host 'dev-database' are stale by 0d 0h 0m 59s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420488] Warning: The results of service 'Total Processes' on host 'dev-nginx' are stale by 0d 0h 0m 46s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420488] Warning: The results of service 'SSH' on host 'dev-services' are stale by 0d 0h 0m 49s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420488] Warning: The results of service 'Total Processes' on host 'dev-services' are stale by 0d 0h 0m 40s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420499] SERVICE ALERT: dev-bastion;SSH;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506420545] Caught SIGTERM, shutting down...
+[1506420545] Successfully shutdown... (PID=28858)
+[1506420545] Event broker module 'NERD' deinitialized successfully.
+[1506420586] Nagios 4.3.4 starting... (PID=30041)
+[1506420586] Local time is Tue Sep 26 18:09:46 CST 2017
+[1506420586] LOG VERSION: 2.0
+[1506420586] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506420586] qh: core query handler registered
+[1506420586] nerd: Channel hostchecks registered successfully
+[1506420586] nerd: Channel servicechecks registered successfully
+[1506420586] nerd: Channel opathchecks registered successfully
+[1506420586] nerd: Fully initialized and ready to rock!
+[1506420586] wproc: Successfully registered manager as @wproc with query handler
+[1506420586] wproc: Registry request: name=Core Worker 30045;pid=30045
+[1506420586] wproc: Registry request: name=Core Worker 30046;pid=30046
+[1506420586] wproc: Registry request: name=Core Worker 30043;pid=30043
+[1506420586] wproc: Registry request: name=Core Worker 30044;pid=30044
+[1506420586] Successfully launched command file worker with pid 30047
+[1506420645] Warning: The results of service 'Current Load' on host 'dev-bastion' are stale by 0d 0h 2m 35s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420645] Warning: The results of service 'Current Load' on host 'dev-database' are stale by 0d 0h 2m 30s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506420839] Caught SIGTERM, shutting down...
+[1506420839] Successfully shutdown... (PID=30041)
+[1506420839] Event broker module 'NERD' deinitialized successfully.
+[1506420975] Nagios 4.3.4 starting... (PID=30567)
+[1506420975] Local time is Tue Sep 26 18:16:15 CST 2017
+[1506420975] LOG VERSION: 2.0
+[1506420975] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506420975] qh: core query handler registered
+[1506420975] nerd: Channel hostchecks registered successfully
+[1506420975] nerd: Channel servicechecks registered successfully
+[1506420975] nerd: Channel opathchecks registered successfully
+[1506420975] nerd: Fully initialized and ready to rock!
+[1506420975] wproc: Successfully registered manager as @wproc with query handler
+[1506420975] wproc: Registry request: name=Core Worker 30569;pid=30569
+[1506420975] wproc: Registry request: name=Core Worker 30570;pid=30570
+[1506420975] wproc: Registry request: name=Core Worker 30571;pid=30571
+[1506420975] wproc: Registry request: name=Core Worker 30572;pid=30572
+[1506420975] Successfully launched command file worker with pid 30573
+[1506421031] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506421031] Warning:  Passive check result was received for service 'nsca' on host 'nsca_server', but the host could not be found!
+[1506421031] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506421031] External command error: Command failed
+[1506421063] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506421063] Warning:  Passive check result was received for service 'nsca' on host 'nsca_server', but the host could not be found!
+[1506421063] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK;10
+[1506421063] External command error: Command failed
+[1506421154] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK
+[1506421154] Warning:  Passive check result was received for service 'nsca' on host 'nsca_server', but the host could not be found!
+[1506421154] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;nsca_server;nsca;0;testOK
+[1506421154] External command error: Command failed
+[1506421190] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;0;0;10
+[1506421190] Warning:  Passive check result was received for service '0' on host 'nsca_server', but the host could not be found!
+[1506421190] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;nsca_server;0;0;10
+[1506421190] External command error: Command failed
+[1506421211] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca_server;0;0;10
+[1506421211] Warning:  Passive check result was received for service '0' on host 'nsca_server', but the host could not be found!
+[1506421211] Error: External command failed -> PROCESS_SERVICE_CHECK_RESULT;nsca_server;0;0;10
+[1506421211] External command error: Command failed
+[1506421224] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;nsca_server;0;testOK
+[1506421224] Warning:  Passive check result was received for host 'nsca_server', but the host could not be found!
+[1506421224] Error: External command failed -> PROCESS_HOST_CHECK_RESULT;nsca_server;0;testOK
+[1506421224] External command error: Command failed
+[1506421257] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca-server;nsca;0;testOK
+[1506421257] PASSIVE SERVICE CHECK: nsca-server;nsca;0;testOK
+[1506421264] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;nsca-server;nsca;0;testOK
+[1506421264] PASSIVE SERVICE CHECK: nsca-server;nsca;0;testOK
+[1506421310] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;nsca-server;0;testOK
+[1506421310] PASSIVE HOST CHECK: nsca-server;0;testOK
+[1506421455] Warning: The results of service 'Current Users' on host 'dev-bastion' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421455] Warning: The results of service 'Current Users' on host 'dev-database' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421455] Warning: The results of service 'Total Processes' on host 'dev-database' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421455] Warning: The results of service 'Current Load' on host 'dev-nginx' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421455] Warning: The results of service 'Current Users' on host 'dev-nginx' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421455] Warning: The results of service 'Current Load' on host 'dev-services' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421456] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-bastion;0;testOK
+[1506421456] PASSIVE HOST CHECK: dev-bastion;0;testOK
+[1506421456] HOST ALERT: dev-bastion;UP;HARD;8;testOK
+[1506421485] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-nginx;0;testOK
+[1506421485] PASSIVE HOST CHECK: dev-nginx;0;testOK
+[1506421485] HOST ALERT: dev-nginx;UP;HARD;6;testOK
+[1506421515] Warning: The results of service 'Current Users' on host 'dev-services' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421575] Warning: The results of service 'HTTP' on host 'dev-bastion' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421575] Warning: The results of service 'HTTP' on host 'dev-database' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421575] Warning: The results of service 'HTTP' on host 'dev-nginx' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421575] Warning: The results of service 'SSH' on host 'dev-nginx' are stale by 0d 0h 0m 7s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421575] Warning: The results of service 'HTTP' on host 'dev-services' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421585] SERVICE ALERT: dev-nginx;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506421635] Warning: The results of service 'PING' on host 'dev-bastion' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421635] Warning: The results of service 'Root Partition' on host 'dev-bastion' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421635] Warning: The results of service 'PING' on host 'dev-database' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421635] Warning: The results of service 'Root Partition' on host 'dev-database' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421635] Warning: The results of service 'PING' on host 'dev-nginx' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421635] Warning: The results of service 'Root Partition' on host 'dev-nginx' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421635] Warning: The results of service 'PING' on host 'dev-services' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421635] Warning: The results of service 'Root Partition' on host 'dev-services' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421695] Warning: The results of service 'SSH' on host 'dev-bastion' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421695] Warning: The results of service 'Total Processes' on host 'dev-bastion' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421695] Warning: The results of service 'SSH' on host 'dev-database' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421695] Warning: The results of service 'Total Processes' on host 'dev-nginx' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421695] Warning: The results of service 'SSH' on host 'dev-services' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421695] Warning: The results of service 'Total Processes' on host 'dev-services' are stale by 0d 0h 0m 6s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421705] SERVICE ALERT: dev-services;SSH;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506421705] SERVICE ALERT: dev-database;SSH;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506421874] Warning: The results of service 'Current Load' on host 'dev-bastion' are stale by 0d 0h 0m 28s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506421874] Warning: The results of service 'Current Load' on host 'dev-database' are stale by 0d 0h 0m 28s (threshold=0d 0h 20m 0s).  I'm forcing an immediate check of the service.
+[1506422011] Caught SIGTERM, shutting down...
+[1506422011] Successfully shutdown... (PID=30567)
+[1506422011] Event broker module 'NERD' deinitialized successfully.
+[1506422012] Nagios 4.3.4 starting... (PID=31903)
+[1506422012] Local time is Tue Sep 26 18:33:32 CST 2017
+[1506422012] LOG VERSION: 2.0
+[1506422012] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506422012] qh: core query handler registered
+[1506422012] nerd: Channel hostchecks registered successfully
+[1506422012] nerd: Channel servicechecks registered successfully
+[1506422012] nerd: Channel opathchecks registered successfully
+[1506422012] nerd: Fully initialized and ready to rock!
+[1506422012] wproc: Successfully registered manager as @wproc with query handler
+[1506422012] wproc: Registry request: name=Core Worker 31907;pid=31907
+[1506422012] wproc: Registry request: name=Core Worker 31908;pid=31908
+[1506422012] wproc: Registry request: name=Core Worker 31905;pid=31905
+[1506422012] wproc: Registry request: name=Core Worker 31906;pid=31906
+[1506422012] Successfully launched command file worker with pid 31909
+[1506422112] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-nginx;0;testOK
+[1506422112] PASSIVE HOST CHECK: dev-nginx;0;testOK
+[1506422456] Caught SIGTERM, shutting down...
+[1506422456] Successfully shutdown... (PID=31903)
+[1506422456] Event broker module 'NERD' deinitialized successfully.
+[1506422457] Nagios 4.3.4 starting... (PID=32538)
+[1506422457] Local time is Tue Sep 26 18:40:57 CST 2017
+[1506422457] LOG VERSION: 2.0
+[1506422457] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506422457] qh: core query handler registered
+[1506422457] nerd: Channel hostchecks registered successfully
+[1506422457] nerd: Channel servicechecks registered successfully
+[1506422457] nerd: Channel opathchecks registered successfully
+[1506422457] nerd: Fully initialized and ready to rock!
+[1506422457] wproc: Successfully registered manager as @wproc with query handler
+[1506422457] wproc: Registry request: name=Core Worker 32543;pid=32543
+[1506422457] wproc: Registry request: name=Core Worker 32540;pid=32540
+[1506422457] wproc: Registry request: name=Core Worker 32541;pid=32541
+[1506422457] wproc: Registry request: name=Core Worker 32542;pid=32542
+[1506422457] Successfully launched command file worker with pid 32544
+[1506423280] Caught SIGTERM, shutting down...
+[1506423280] Successfully shutdown... (PID=32538)
+[1506423280] Event broker module 'NERD' deinitialized successfully.
+[1506423281] Nagios 4.3.4 starting... (PID=1212)
+[1506423281] Local time is Tue Sep 26 18:54:41 CST 2017
+[1506423281] LOG VERSION: 2.0
+[1506423281] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506423281] qh: core query handler registered
+[1506423281] nerd: Channel hostchecks registered successfully
+[1506423281] nerd: Channel servicechecks registered successfully
+[1506423281] nerd: Channel opathchecks registered successfully
+[1506423281] nerd: Fully initialized and ready to rock!
+[1506423281] wproc: Successfully registered manager as @wproc with query handler
+[1506423281] wproc: Registry request: name=Core Worker 1216;pid=1216
+[1506423281] wproc: Registry request: name=Core Worker 1217;pid=1217
+[1506423281] wproc: Registry request: name=Core Worker 1214;pid=1214
+[1506423281] wproc: Registry request: name=Core Worker 1215;pid=1215
+[1506423281] Successfully launched command file worker with pid 1218
+[1506423320] EXTERNAL COMMAND: SCHEDULE_FORCED_SVC_CHECK;uat-nginx;Current Load;1506423318
+[1506423407] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-nginx;0;testOK
+[1506423407] PASSIVE HOST CHECK: dev-nginx;0;testOK
+[1506424125] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506426881] Auto-save of retention data completed successfully.
+[1506427725] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506430481] Auto-save of retention data completed successfully.
+[1506431053] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;nsca-server;0;testOK
+[1506431053] PASSIVE HOST CHECK: nsca-server;0;testOK
+[1506431075] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;nsca-server;0;testOK
+[1506431075] PASSIVE HOST CHECK: nsca-server;0;testOK
+[1506431325] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506431481] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431481] Warning:  Passive check result was received for host 'aa', but the host could not be found!
+[1506431481] Error: External command failed -> PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431481] External command error: Command failed
+[1506431631] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431631] Warning:  Passive check result was received for host 'aa', but the host could not be found!
+[1506431631] Error: External command failed -> PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431631] External command error: Command failed
+[1506431639] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431639] Warning:  Passive check result was received for host 'aa', but the host could not be found!
+[1506431639] Error: External command failed -> PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431639] External command error: Command failed
+[1506431640] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431640] Warning:  Passive check result was received for host 'aa', but the host could not be found!
+[1506431640] Error: External command failed -> PROCESS_HOST_CHECK_RESULT;aa;0;cc|dd
+[1506431640] External command error: Command failed
+[1506431650] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-database;0;test|1
+[1506431650] PASSIVE HOST CHECK: dev-database;0;test
+[1506431650] HOST ALERT: dev-database;UP;HARD;7;test
+[1506431665] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-service;0;test|
+[1506431665] Warning:  Passive check result was received for host 'dev-service', but the host could not be found!
+[1506431665] Error: External command failed -> PROCESS_HOST_CHECK_RESULT;dev-service;0;test|
+[1506431665] External command error: Command failed
+[1506431666] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-service;0;test|
+[1506431666] Warning:  Passive check result was received for host 'dev-service', but the host could not be found!
+[1506431666] Error: External command failed -> PROCESS_HOST_CHECK_RESULT;dev-service;0;test|
+[1506431666] External command error: Command failed
+[1506431673] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-services;0;test|
+[1506431673] PASSIVE HOST CHECK: dev-services;0;test
+[1506431673] HOST ALERT: dev-services;UP;HARD;5;test
+[1506434081] Auto-save of retention data completed successfully.
+[1506434925] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506437681] Auto-save of retention data completed successfully.
+[1506437715] Caught SIGTERM, shutting down...
+[1506437715] Successfully shutdown... (PID=1212)
+[1506437715] Event broker module 'NERD' deinitialized successfully.
+[1506437716] Nagios 4.3.4 starting... (PID=21484)
+[1506437716] Local time is Tue Sep 26 22:55:16 CST 2017
+[1506437716] LOG VERSION: 2.0
+[1506437716] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506437716] qh: core query handler registered
+[1506437716] nerd: Channel hostchecks registered successfully
+[1506437716] nerd: Channel servicechecks registered successfully
+[1506437716] nerd: Channel opathchecks registered successfully
+[1506437716] nerd: Fully initialized and ready to rock!
+[1506437716] wproc: Successfully registered manager as @wproc with query handler
+[1506437716] wproc: Registry request: name=Core Worker 21489;pid=21489
+[1506437716] wproc: Registry request: name=Core Worker 21486;pid=21486
+[1506437716] wproc: Registry request: name=Core Worker 21487;pid=21487
+[1506437716] wproc: Registry request: name=Core Worker 21488;pid=21488
+[1506437716] Successfully launched command file worker with pid 21490
+[1506437776] Warning: The results of service 'Current Load' on host 'dev-bastion' are stale by 0d 4h 15m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Current Users' on host 'dev-bastion' are stale by 0d 4h 22m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'HTTP' on host 'dev-bastion' are stale by 0d 4h 20m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'PING' on host 'dev-bastion' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Root Partition' on host 'dev-bastion' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'SSH' on host 'dev-bastion' are stale by 0d 4h 18m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Total Processes' on host 'dev-bastion' are stale by 0d 4h 18m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Current Load' on host 'dev-database' are stale by 0d 4h 15m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Current Users' on host 'dev-database' are stale by 0d 4h 22m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'HTTP' on host 'dev-database' are stale by 0d 4h 20m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'PING' on host 'dev-database' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Root Partition' on host 'dev-database' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'SSH' on host 'dev-database' are stale by 0d 4h 18m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Total Processes' on host 'dev-database' are stale by 0d 4h 22m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Current Load' on host 'dev-nginx' are stale by 0d 4h 22m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Current Users' on host 'dev-nginx' are stale by 0d 4h 22m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'HTTP' on host 'dev-nginx' are stale by 0d 4h 20m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'PING' on host 'dev-nginx' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Root Partition' on host 'dev-nginx' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'SSH' on host 'dev-nginx' are stale by 0d 4h 20m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Total Processes' on host 'dev-nginx' are stale by 0d 4h 18m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Current Load' on host 'dev-services' are stale by 0d 4h 22m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Current Users' on host 'dev-services' are stale by 0d 4h 21m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'HTTP' on host 'dev-services' are stale by 0d 4h 20m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'PING' on host 'dev-services' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Root Partition' on host 'dev-services' are stale by 0d 4h 19m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'SSH' on host 'dev-services' are stale by 0d 4h 18m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'Total Processes' on host 'dev-services' are stale by 0d 4h 18m 1s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of service 'nsca' on host 'nsca-server' are stale by 0d 4h 25m 12s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506437776] Warning: The results of host 'dev-bastion' are stale by 0d 4h 22m 0s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506437776] Warning: The results of host 'dev-database' are stale by 0d 1h 32m 6s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506437776] Warning: The results of host 'dev-nginx' are stale by 0d 3h 49m 29s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506437776] Warning: The results of host 'dev-services' are stale by 0d 1h 31m 43s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506437776] Warning: The results of host 'nsca-server' are stale by 0d 1h 41m 41s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506437776] HOST ALERT: dev-bastion;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506437776] HOST ALERT: dev-nginx;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506437776] HOST ALERT: dev-database;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506437776] HOST ALERT: nsca-server;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506437776] HOST ALERT: dev-services;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506437787] SERVICE NOTIFICATION: nagiosadmin;dev-nginx;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506437787] SERVICE NOTIFICATION: nagiosadmin;dev-database;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506437787] SERVICE NOTIFICATION: nagiosadmin;dev-bastion;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506437787] SERVICE NOTIFICATION: nagiosadmin;dev-services;PING;CRITICAL;notify-service-by-email;CRITICAL - Plugin timed out
+[1506437937] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)|time=0.006303s;;;0.000000;10.000000
+[1506437937] PASSIVE SERVICE CHECK: localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1506437937] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-services;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)|time=0.009095s;;;0.000000;10.000000
+[1506437937] PASSIVE SERVICE CHECK: dev-services;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1506437937] SERVICE ALERT: dev-services;SSH;OK;HARD;3;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1506437940] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Total Processes;0;PROCS OK: 49 processes with STATE = RSZDT|procs=49;250;400;0;
+[1506437940] PASSIVE SERVICE CHECK: localhost;Total Processes;0;PROCS OK: 49 processes with STATE = RSZDT
+[1506437943] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-nginx;0;PING OK - Packet loss = 0%, RTA = 3.03 ms|rta=3.031000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506437943] PASSIVE HOST CHECK: dev-nginx;0;PING OK - Packet loss = 0%, RTA = 3.03 ms
+[1506437943] HOST ALERT: dev-nginx;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 3.03 ms
+[1506437950] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Load;0;OK - load average: 0.04, 0.06, 0.06|load1=0.040;5.000;10.000;0; load5=0.060;4.000;6.000;0; load15=0.060;3.000;4.000;0;
+[1506437950] PASSIVE SERVICE CHECK: localhost;Current Load;0;OK - load average: 0.04, 0.06, 0.06
+[1506437951] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.040000ms;100.000000;500.000000;0.000000 pl=0%;20;60;0
+[1506437951] PASSIVE SERVICE CHECK: localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1506437965] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-database;0;PING OK - Packet loss = 0%, RTA = 2.74 ms|rta=2.736000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506437965] PASSIVE HOST CHECK: dev-database;0;PING OK - Packet loss = 0%, RTA = 2.74 ms
+[1506437965] HOST ALERT: dev-database;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 2.74 ms
+[1506437969] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Users;0;USERS OK - 2 users currently logged in|users=2;20;50;0
+[1506437969] PASSIVE SERVICE CHECK: localhost;Current Users;0;USERS OK - 2 users currently logged in
+[1506437973] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Root Partition;0;DISK OK - free space: / 28716 MB (93.51% inode=100%):|/=1990MB;24565;27636;0;30707
+[1506437973] PASSIVE SERVICE CHECK: localhost;Root Partition;0;DISK OK - free space: / 28716 MB (93.51% inode=100%):
+[1506437980] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-services;0;PING OK - Packet loss = 0%, RTA = 0.52 ms|rta=0.517000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506437980] PASSIVE HOST CHECK: dev-services;0;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1506437980] HOST ALERT: dev-services;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.52 ms
+[1506437982] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.|swap=0MB;0;0;0;0
+[1506437982] PASSIVE SERVICE CHECK: localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506437982] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-bastion;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time|time=0.001475s;;;0.000000 size=5179B;;;0
+[1506437982] PASSIVE SERVICE CHECK: dev-bastion;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1506437982] SERVICE ALERT: dev-bastion;HTTP;WARNING;HARD;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1506437983] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-bastion;0;PING OK - Packet loss = 0%, RTA = 0.03 ms|rta=0.031000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506437983] PASSIVE HOST CHECK: dev-bastion;0;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1506437983] HOST ALERT: dev-bastion;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1506437989] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time|time=0.000483s;;;0.000000 size=5179B;;;0
+[1506437989] PASSIVE SERVICE CHECK: localhost;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506437990] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-bastion;Total Processes;0;PROCS OK: 48 processes with STATE = RSZDT|procs=48;250;400;0;
+[1506437990] PASSIVE SERVICE CHECK: dev-bastion;Total Processes;0;PROCS OK: 48 processes with STATE = RSZDT
+[1506437990] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-database;HTTP;2;connect to address 10.1.101.10 and port 80: Connection refused|
+[1506437990] PASSIVE SERVICE CHECK: dev-database;HTTP;2;connect to address 10.1.101.10 and port 80: Connection refused
+[1506437997] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)|time=0.006463s;;;0.000000;10.000000
+[1506437997] PASSIVE SERVICE CHECK: localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1506438000] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Total Processes;0;PROCS OK: 47 processes with STATE = RSZDT|procs=47;250;400;0;
+[1506438000] PASSIVE SERVICE CHECK: localhost;Total Processes;0;PROCS OK: 47 processes with STATE = RSZDT
+[1506438005] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-services;HTTP;2;connect to address 10.1.100.10 and port 80: Connection refused|
+[1506438005] PASSIVE SERVICE CHECK: dev-services;HTTP;2;connect to address 10.1.100.10 and port 80: Connection refused
+[1506438007] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-nginx;0;PING OK - Packet loss = 0%, RTA = 2.91 ms|rta=2.912000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438007] PASSIVE HOST CHECK: dev-nginx;0;PING OK - Packet loss = 0%, RTA = 2.91 ms
+[1506438010] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Load;0;OK - load average: 0.02, 0.05, 0.05|load1=0.020;5.000;10.000;0; load5=0.050;4.000;6.000;0; load15=0.050;3.000;4.000;0;
+[1506438010] PASSIVE SERVICE CHECK: localhost;Current Load;0;OK - load average: 0.02, 0.05, 0.05
+[1506438011] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.042000ms;100.000000;500.000000;0.000000 pl=0%;20;60;0
+[1506438011] PASSIVE SERVICE CHECK: localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1506438027] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-bastion;Current Load;0;OK - load average: 0.01, 0.05, 0.05|load1=0.010;5.000;10.000;0; load5=0.050;4.000;6.000;0; load15=0.050;3.000;4.000;0;
+[1506438027] PASSIVE SERVICE CHECK: dev-bastion;Current Load;0;OK - load average: 0.01, 0.05, 0.05
+[1506438029] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Users;0;USERS OK - 2 users currently logged in|users=2;20;50;0
+[1506438029] PASSIVE SERVICE CHECK: localhost;Current Users;0;USERS OK - 2 users currently logged in
+[1506438029] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-database;0;PING OK - Packet loss = 0%, RTA = 2.70 ms|rta=2.703000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438029] PASSIVE HOST CHECK: dev-database;0;PING OK - Packet loss = 0%, RTA = 2.70 ms
+[1506438033] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Root Partition;0;DISK OK - free space: / 28716 MB (93.51% inode=100%):|/=1990MB;24565;27636;0;30707
+[1506438033] PASSIVE SERVICE CHECK: localhost;Root Partition;0;DISK OK - free space: / 28716 MB (93.51% inode=100%):
+[1506438042] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;Current Load;0;OK - load average: 0.01, 0.05, 0.05|load1=0.010;5.000;10.000;0; load5=0.050;4.000;6.000;0; load15=0.050;3.000;4.000;0;
+[1506438042] PASSIVE SERVICE CHECK: dev-nginx;Current Load;0;OK - load average: 0.01, 0.05, 0.05
+[1506438042] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.|swap=0MB;0;0;0;0
+[1506438042] PASSIVE SERVICE CHECK: localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506438044] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-services;0;PING OK - Packet loss = 0%, RTA = 0.57 ms|rta=0.575000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438044] PASSIVE HOST CHECK: dev-services;0;PING OK - Packet loss = 0%, RTA = 0.57 ms
+[1506438047] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-bastion;0;PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.040000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438047] PASSIVE HOST CHECK: dev-bastion;0;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1506438049] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time|time=0.000453s;;;0.000000 size=5179B;;;0
+[1506438049] PASSIVE SERVICE CHECK: localhost;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506438051] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-services;Current Load;0;OK - load average: 0.01, 0.04, 0.05|load1=0.010;5.000;10.000;0; load5=0.040;4.000;6.000;0; load15=0.050;3.000;4.000;0;
+[1506438051] PASSIVE SERVICE CHECK: dev-services;Current Load;0;OK - load average: 0.01, 0.04, 0.05
+[1506438057] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)|time=0.006252s;;;0.000000;10.000000
+[1506438057] PASSIVE SERVICE CHECK: localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1506438060] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Total Processes;0;PROCS OK: 47 processes with STATE = RSZDT|procs=47;250;400;0;
+[1506438060] PASSIVE SERVICE CHECK: localhost;Total Processes;0;PROCS OK: 47 processes with STATE = RSZDT
+[1506438070] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Load;0;OK - load average: 0.01, 0.04, 0.05|load1=0.010;5.000;10.000;0; load5=0.040;4.000;6.000;0; load15=0.050;3.000;4.000;0;
+[1506438070] PASSIVE SERVICE CHECK: localhost;Current Load;0;OK - load average: 0.01, 0.04, 0.05
+[1506438071] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.04 ms|rta=0.040000ms;100.000000;500.000000;0.000000 pl=0%;20;60;0
+[1506438071] PASSIVE SERVICE CHECK: localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1506438071] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-nginx;0;PING OK - Packet loss = 0%, RTA = 2.84 ms|rta=2.836000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438071] PASSIVE HOST CHECK: dev-nginx;0;PING OK - Packet loss = 0%, RTA = 2.84 ms
+[1506438080] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;Current Users;0;USERS OK - 1 users currently logged in|users=1;20;50;0
+[1506438080] PASSIVE SERVICE CHECK: dev-nginx;Current Users;0;USERS OK - 1 users currently logged in
+[1506438083] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-database;Current Load;0;OK - load average: 0.00, 0.04, 0.05|load1=0.000;5.000;10.000;0; load5=0.040;4.000;6.000;0; load15=0.050;3.000;4.000;0;
+[1506438083] PASSIVE SERVICE CHECK: dev-database;Current Load;0;OK - load average: 0.00, 0.04, 0.05
+[1506438088] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-services;Current Users;0;USERS OK - 1 users currently logged in|users=1;20;50;0
+[1506438088] PASSIVE SERVICE CHECK: dev-services;Current Users;0;USERS OK - 1 users currently logged in
+[1506438090] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Users;0;USERS OK - 1 users currently logged in|users=1;20;50;0
+[1506438090] PASSIVE SERVICE CHECK: localhost;Current Users;0;USERS OK - 1 users currently logged in
+[1506438094] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Root Partition;0;DISK OK - free space: / 28717 MB (93.51% inode=100%):|/=1989MB;24565;27636;0;30707
+[1506438094] PASSIVE SERVICE CHECK: localhost;Root Partition;0;DISK OK - free space: / 28717 MB (93.51% inode=100%):
+[1506438095] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-database;0;PING OK - Packet loss = 0%, RTA = 2.73 ms|rta=2.733000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438095] PASSIVE HOST CHECK: dev-database;0;PING OK - Packet loss = 0%, RTA = 2.73 ms
+[1506438095] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-bastion;SSH;2;connect to address 10.1.0.10 and port 22: Connection refused|
+[1506438095] PASSIVE SERVICE CHECK: dev-bastion;SSH;2;connect to address 10.1.0.10 and port 22: Connection refused
+[1506438099] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-services;Total Processes;0;PROCS OK: 43 processes with STATE = RSZDT|procs=43;250;400;0;
+[1506438099] PASSIVE SERVICE CHECK: dev-services;Total Processes;0;PROCS OK: 43 processes with STATE = RSZDT
+[1506438102] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.|swap=0MB;0;0;0;0
+[1506438102] PASSIVE SERVICE CHECK: localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506438108] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-services;0;PING OK - Packet loss = 0%, RTA = 0.45 ms|rta=0.449000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438108] PASSIVE HOST CHECK: dev-services;0;PING OK - Packet loss = 0%, RTA = 0.45 ms
+[1506438109] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time|time=0.000431s;;;0.000000 size=5179B;;;0
+[1506438109] PASSIVE SERVICE CHECK: localhost;HTTP;1;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.000 second response time
+[1506438111] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-database;Total Processes;0;PROCS OK: 45 processes with STATE = RSZDT|procs=45;250;400;0;
+[1506438111] PASSIVE SERVICE CHECK: dev-database;Total Processes;0;PROCS OK: 45 processes with STATE = RSZDT
+[1506438112] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-bastion;0;PING OK - Packet loss = 0%, RTA = 0.03 ms|rta=0.029000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438112] PASSIVE HOST CHECK: dev-bastion;0;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1506438118] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;HTTP;0;HTTP OK: HTTP/1.1 200 OK - 3934 bytes in 0.006 second response time|time=0.005795s;;;0.000000 size=3934B;;;0
+[1506438118] PASSIVE SERVICE CHECK: dev-nginx;HTTP;0;HTTP OK: HTTP/1.1 200 OK - 3934 bytes in 0.006 second response time
+[1506438118] SERVICE ALERT: dev-nginx;HTTP;OK;HARD;3;HTTP OK: HTTP/1.1 200 OK - 3934 bytes in 0.006 second response time
+[1506438118] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)|time=0.006085s;;;0.000000;10.000000
+[1506438118] PASSIVE SERVICE CHECK: localhost;SSH;0;SSH OK - OpenSSH_6.6.1 (protocol 2.0)
+[1506438121] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Total Processes;0;PROCS OK: 43 processes with STATE = RSZDT|procs=43;250;400;0;
+[1506438121] PASSIVE SERVICE CHECK: localhost;Total Processes;0;PROCS OK: 43 processes with STATE = RSZDT
+[1506438128] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-bastion;Current Users;0;USERS OK - 1 users currently logged in|users=1;20;50;0
+[1506438128] PASSIVE SERVICE CHECK: dev-bastion;Current Users;0;USERS OK - 1 users currently logged in
+[1506438130] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Load;0;OK - load average: 0.00, 0.04, 0.05|load1=0.000;5.000;10.000;0; load5=0.040;4.000;6.000;0; load15=0.050;3.000;4.000;0;
+[1506438130] PASSIVE SERVICE CHECK: localhost;Current Load;0;OK - load average: 0.00, 0.04, 0.05
+[1506438132] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.03 ms|rta=0.030000ms;100.000000;500.000000;0.000000 pl=0%;20;60;0
+[1506438132] PASSIVE SERVICE CHECK: localhost;PING;0;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1506438135] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-nginx;0;PING OK - Packet loss = 0%, RTA = 2.90 ms|rta=2.900000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438135] PASSIVE HOST CHECK: dev-nginx;0;PING OK - Packet loss = 0%, RTA = 2.90 ms
+[1506438149] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Current Users;0;USERS OK - 1 users currently logged in|users=1;20;50;0
+[1506438149] PASSIVE SERVICE CHECK: localhost;Current Users;0;USERS OK - 1 users currently logged in
+[1506438151] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-database;PING;0;PING OK - Packet loss = 0%, RTA = 2.81 ms|rta=2.812000ms;100.000000;500.000000;0.000000 pl=0%;20;60;0
+[1506438151] PASSIVE SERVICE CHECK: dev-database;PING;0;PING OK - Packet loss = 0%, RTA = 2.81 ms
+[1506438151] SERVICE ALERT: dev-database;PING;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 2.81 ms
+[1506438151] SERVICE NOTIFICATION: nagiosadmin;dev-database;PING;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 2.81 ms
+[1506438154] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Root Partition;0;DISK OK - free space: / 28717 MB (93.51% inode=100%):|/=1989MB;24565;27636;0;30707
+[1506438154] PASSIVE SERVICE CHECK: localhost;Root Partition;0;DISK OK - free space: / 28717 MB (93.51% inode=100%):
+[1506438157] EXTERNAL COMMAND: PROCESS_HOST_CHECK_RESULT;dev-database;0;PING OK - Packet loss = 0%, RTA = 2.72 ms|rta=2.723000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+[1506438157] PASSIVE HOST CHECK: dev-database;0;PING OK - Packet loss = 0%, RTA = 2.72 ms
+[1506438160] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;dev-nginx;PING;0;PING OK - Packet loss = 0%, RTA = 2.88 ms|rta=2.879000ms;100.000000;500.000000;0.000000 pl=0%;20;60;0
+[1506438160] PASSIVE SERVICE CHECK: dev-nginx;PING;0;PING OK - Packet loss = 0%, RTA = 2.88 ms
+[1506438160] SERVICE ALERT: dev-nginx;PING;OK;HARD;3;PING OK - Packet loss = 0%, RTA = 2.88 ms
+[1506438160] SERVICE NOTIFICATION: nagiosadmin;dev-nginx;PING;OK;notify-service-by-email;PING OK - Packet loss = 0%, RTA = 2.88 ms
+[1506438163] EXTERNAL COMMAND: PROCESS_SERVICE_CHECK_RESULT;localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.|swap=0MB;0;0;0;0
+[1506438163] PASSIVE SERVICE CHECK: localhost;Swap Usage;2;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506438165] Caught SIGTERM, shutting down...
+[1506438165] Successfully shutdown... (PID=21484)
+[1506438165] Event broker module 'NERD' deinitialized successfully.
+[1506438166] Nagios 4.3.4 starting... (PID=22364)
+[1506438166] Local time is Tue Sep 26 23:02:46 CST 2017
+[1506438166] LOG VERSION: 2.0
+[1506438166] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506438166] qh: core query handler registered
+[1506438166] nerd: Channel hostchecks registered successfully
+[1506438166] nerd: Channel servicechecks registered successfully
+[1506438166] nerd: Channel opathchecks registered successfully
+[1506438166] nerd: Fully initialized and ready to rock!
+[1506438166] wproc: Successfully registered manager as @wproc with query handler
+[1506438166] wproc: Registry request: name=Core Worker 22368;pid=22368
+[1506438166] wproc: Registry request: name=Core Worker 22369;pid=22369
+[1506438166] wproc: Registry request: name=Core Worker 22366;pid=22366
+[1506438166] wproc: Registry request: name=Core Worker 22367;pid=22367
+[1506438166] Successfully launched command file worker with pid 22370
+[1506438406] Warning: The results of host 'nsca-server' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506438406] Warning: The results of service 'PING' on host 'dev-bastion' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'Root Partition' on host 'dev-bastion' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'Current Users' on host 'dev-database' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'Root Partition' on host 'dev-database' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'SSH' on host 'dev-database' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'Root Partition' on host 'dev-nginx' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'SSH' on host 'dev-nginx' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'Total Processes' on host 'dev-nginx' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'PING' on host 'dev-services' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'Root Partition' on host 'dev-services' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] Warning: The results of service 'nsca' on host 'nsca-server' are stale by 0d 0h 0m 30s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438406] HOST ALERT: nsca-server;UP;SOFT;2;OK
+[1506438414] Caught SIGTERM, shutting down...
+[1506438414] Successfully shutdown... (PID=22364)
+[1506438414] Event broker module 'NERD' deinitialized successfully.
+[1506438416] Nagios 4.3.4 starting... (PID=22793)
+[1506438416] Local time is Tue Sep 26 23:06:56 CST 2017
+[1506438416] LOG VERSION: 2.0
+[1506438416] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506438416] qh: core query handler registered
+[1506438416] nerd: Channel hostchecks registered successfully
+[1506438416] nerd: Channel servicechecks registered successfully
+[1506438416] nerd: Channel opathchecks registered successfully
+[1506438416] nerd: Fully initialized and ready to rock!
+[1506438416] wproc: Successfully registered manager as @wproc with query handler
+[1506438416] wproc: Registry request: name=Core Worker 22798;pid=22798
+[1506438416] wproc: Registry request: name=Core Worker 22797;pid=22797
+[1506438416] wproc: Registry request: name=Core Worker 22796;pid=22796
+[1506438416] wproc: Registry request: name=Core Worker 22795;pid=22795
+[1506438416] Successfully launched command file worker with pid 22799
+[1506438475] Warning: The results of service 'PING' on host 'dev-bastion' are stale by 0d 0h 1m 39s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438475] Warning: The results of service 'SSH' on host 'dev-database' are stale by 0d 0h 1m 39s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438475] Warning: The results of service 'SSH' on host 'dev-nginx' are stale by 0d 0h 1m 39s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438475] Warning: The results of service 'PING' on host 'dev-services' are stale by 0d 0h 1m 39s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438486] SERVICE ALERT: dev-nginx;SSH;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506438525] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 0% free (0 MB out of 0 MB) - Swap is either disabled, not present, or of zero size.
+[1506438565] Caught SIGTERM, shutting down...
+[1506438565] Successfully shutdown... (PID=22793)
+[1506438565] Event broker module 'NERD' deinitialized successfully.
+[1506438566] Nagios 4.3.4 starting... (PID=23130)
+[1506438566] Local time is Tue Sep 26 23:09:26 CST 2017
+[1506438566] LOG VERSION: 2.0
+[1506438566] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506438566] qh: core query handler registered
+[1506438566] nerd: Channel hostchecks registered successfully
+[1506438566] nerd: Channel servicechecks registered successfully
+[1506438566] nerd: Channel opathchecks registered successfully
+[1506438566] nerd: Fully initialized and ready to rock!
+[1506438566] wproc: Successfully registered manager as @wproc with query handler
+[1506438566] wproc: Registry request: name=Core Worker 23132;pid=23132
+[1506438566] wproc: Registry request: name=Core Worker 23133;pid=23133
+[1506438566] wproc: Registry request: name=Core Worker 23134;pid=23134
+[1506438566] wproc: Registry request: name=Core Worker 23135;pid=23135
+[1506438566] Successfully launched command file worker with pid 23136
+[1506438610] Caught SIGTERM, shutting down...
+[1506438610] Successfully shutdown... (PID=23130)
+[1506438610] Event broker module 'NERD' deinitialized successfully.
+[1506438611] Nagios 4.3.4 starting... (PID=23230)
+[1506438611] Local time is Tue Sep 26 23:10:11 CST 2017
+[1506438611] LOG VERSION: 2.0
+[1506438611] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1506438611] qh: core query handler registered
+[1506438611] nerd: Channel hostchecks registered successfully
+[1506438611] nerd: Channel servicechecks registered successfully
+[1506438611] nerd: Channel opathchecks registered successfully
+[1506438611] nerd: Fully initialized and ready to rock!
+[1506438611] wproc: Successfully registered manager as @wproc with query handler
+[1506438611] wproc: Registry request: name=Core Worker 23235;pid=23235
+[1506438611] wproc: Registry request: name=Core Worker 23232;pid=23232
+[1506438611] wproc: Registry request: name=Core Worker 23233;pid=23233
+[1506438611] wproc: Registry request: name=Core Worker 23234;pid=23234
+[1506438611] Successfully launched command file worker with pid 23236
+[1506438670] Warning: The results of service 'Current Load' on host 'dev-bastion' are stale by 0d 0h 0m 43s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438670] Warning: The results of service 'HTTP' on host 'dev-bastion' are stale by 0d 0h 1m 28s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438670] Warning: The results of service 'Total Processes' on host 'dev-bastion' are stale by 0d 0h 1m 20s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438670] Warning: The results of service 'HTTP' on host 'dev-database' are stale by 0d 0h 1m 20s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438670] Warning: The results of service 'Current Load' on host 'dev-nginx' are stale by 0d 0h 0m 28s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438670] Warning: The results of service 'Current Load' on host 'dev-services' are stale by 0d 0h 0m 19s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438670] Warning: The results of service 'HTTP' on host 'dev-services' are stale by 0d 0h 1m 5s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438670] Warning: The results of service 'SSH' on host 'dev-services' are stale by 0d 0h 2m 13s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438675] SERVICE ALERT: uat-bastion;SSH;OK;HARD;4;SSH OK - OpenSSH_7.4 (protocol 2.0)
+[1506438681] SERVICE ALERT: dev-bastion;HTTP;CRITICAL;HARD;3;CRITICAL - Socket timeout
+[1506438681] SERVICE ALERT: dev-services;SSH;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506438730] Warning: The results of host 'dev-bastion' are stale by 0d 0h 0m 18s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506438730] Warning: The results of host 'dev-services' are stale by 0d 0h 0m 22s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506438731] HOST ALERT: dev-bastion;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506438731] HOST ALERT: dev-services;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506438731] Warning: The results of service 'Current Users' on host 'dev-bastion' are stale by 0d 0h 0m 3s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438731] Warning: The results of service 'SSH' on host 'dev-bastion' are stale by 0d 0h 0m 36s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438731] Warning: The results of service 'Current Load' on host 'dev-database' are stale by 0d 0h 0m 48s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438731] Warning: The results of service 'Total Processes' on host 'dev-database' are stale by 0d 0h 0m 20s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438731] Warning: The results of service 'Current Users' on host 'dev-nginx' are stale by 0d 0h 0m 51s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438731] Warning: The results of service 'HTTP' on host 'dev-nginx' are stale by 0d 0h 0m 13s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438731] Warning: The results of service 'Current Users' on host 'dev-services' are stale by 0d 0h 0m 43s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438731] Warning: The results of service 'Total Processes' on host 'dev-services' are stale by 0d 0h 0m 32s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438741] SERVICE ALERT: dev-nginx;HTTP;CRITICAL;SOFT;1;CRITICAL - Socket timeout
+[1506438790] Warning: The results of host 'dev-database' are stale by 0d 0h 0m 33s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506438790] Warning: The results of host 'dev-nginx' are stale by 0d 0h 0m 55s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the host.
+[1506438791] HOST ALERT: dev-database;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506438791] HOST ALERT: dev-nginx;DOWN;SOFT;1;CRITICAL: Host State is Stale.
+[1506438791] Warning: The results of service 'PING' on host 'dev-database' are stale by 0d 0h 0m 40s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438791] Warning: The results of service 'PING' on host 'dev-nginx' are stale by 0d 0h 0m 31s (threshold=0d 0h 10m 0s).  I'm forcing an immediate check of the service.
+[1506438802] SERVICE ALERT: dev-database;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out
+[1506438802] SERVICE ALERT: dev-nginx;PING;CRITICAL;SOFT;1;CRITICAL - Plugin timed out

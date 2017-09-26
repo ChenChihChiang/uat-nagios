@@ -10,7 +10,7 @@
     <NAME>runtime</NAME>
     <LABEL>runtime</LABEL>
     <UNIT>s</UNIT>
-    <ACT>0.003293</ACT>
+    <ACT>0.107724</ACT>
     <WARN></WARN>
     <WARN_MIN></WARN_MIN>
     <WARN_MAX></WARN_MAX>
@@ -32,7 +32,7 @@
     <NAME>rows</NAME>
     <LABEL>rows</LABEL>
     <UNIT></UNIT>
-    <ACT>4</ACT>
+    <ACT>22</ACT>
     <WARN></WARN>
     <WARN_MIN></WARN_MIN>
     <WARN_MAX></WARN_MAX>
@@ -98,7 +98,7 @@
     <NAME>skipped</NAME>
     <LABEL>skipped</LABEL>
     <UNIT></UNIT>
-    <ACT>0</ACT>
+    <ACT>4</ACT>
     <WARN></WARN>
     <WARN_MIN></WARN_MIN>
     <WARN_MAX></WARN_MAX>
@@ -120,7 +120,7 @@
     <NAME>update</NAME>
     <LABEL>update</LABEL>
     <UNIT></UNIT>
-    <ACT>4</ACT>
+    <ACT>18</ACT>
     <WARN></WARN>
     <WARN_MIN></WARN_MIN>
     <WARN_MAX></WARN_MAX>
@@ -166,10 +166,10 @@
   <NAGIOS_DISP_SERVICEDESC>runtime</NAGIOS_DISP_SERVICEDESC>
   <NAGIOS_HOSTNAME>.pnp-internal</NAGIOS_HOSTNAME>
   <NAGIOS_MULTI_PARENT></NAGIOS_MULTI_PARENT>
-  <NAGIOS_PERFDATA>runtime=0.003293s rows=4 errors=0 invalid=0 skipped=0 update=4 create=0</NAGIOS_PERFDATA>
+  <NAGIOS_PERFDATA>runtime=0.107724s rows=22 errors=0 invalid=0 skipped=4 update=18 create=0</NAGIOS_PERFDATA>
   <NAGIOS_RRDFILE></NAGIOS_RRDFILE>
   <NAGIOS_SERVICEDESC>runtime</NAGIOS_SERVICEDESC>
-  <NAGIOS_TIMET>1506414239</NAGIOS_TIMET>
+  <NAGIOS_TIMET>1506438777</NAGIOS_TIMET>
   <NAGIOS_XMLFILE>/usr/local/pnp4nagios/var/perfdata/.pnp-internal/runtime.xml</NAGIOS_XMLFILE>
   <XML>
    <VERSION>4</VERSION>
